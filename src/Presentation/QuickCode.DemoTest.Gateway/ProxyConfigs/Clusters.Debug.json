@@ -1,0 +1,176 @@
+{
+  "ReverseProxy": {
+    "clusters": {
+      "auth-api": {
+        "clusterId": "auth-api",
+        "destinations": {
+          "destination1": {
+            "address": "http://quickcode-demo-test-identity-module-api"
+          }
+        }
+      },
+      "identity-module-api": {
+        "clusterId": "identity-module-api",
+        "destinations": {
+          "destination1": {
+            "address": "http://quickcode-demo-test-identity-module-api"
+          }
+        }
+      },
+      "inventory-module-api": {
+        "clusterId": "inventory-module-api",
+        "destinations": {
+          "destination1": {
+            "address": "http://quickcode-demo-test-inventory-module-api"
+          }
+        }
+      },
+      "order-module-api": {
+        "clusterId": "order-module-api",
+        "destinations": {
+          "destination1": {
+            "address": "http://quickcode-demo-test-order-module-api"
+          }
+        }
+      },
+      "product-catalog-module-api": {
+        "clusterId": "product-catalog-module-api",
+        "destinations": {
+          "destination1": {
+            "address": "http://quickcode-demo-test-product-catalog-module-api"
+          }
+        }
+      },
+      "shipping-module-api": {
+        "clusterId": "shipping-module-api",
+        "destinations": {
+          "destination1": {
+            "address": "http://quickcode-demo-test-shipping-module-api"
+          }
+        }
+      }
+    },
+    "routes": {
+      "auth": {
+        "routeId": "auth",
+        "clusterId": "auth-api",
+        "authorizationPolicy": null,
+        "match": {
+          "path": "api/auth/{**catch-all}",
+          "hosts": [
+            "localhost:6060",
+            "demo-test-gateway-821209474183.europe-west1.run.app",
+            "demo-test-gateway",
+            "quickcode-demo-test-gateway-api",
+            "demo-test-gateway.quickcode.net"
+          ]
+        },
+        "transforms": [
+          {
+            "PathPattern": "api/auth/{**catch-all}"
+          }
+        ]
+      },
+      "identity-module": {
+        "routeId": "identity-module",
+        "clusterId": "identity-module-api",
+        "authorizationPolicy": "QuickCodeGatewayPolicy",
+        "match": {
+          "path": "api/identity-module/{**catch-all}",
+          "hosts": [
+            "localhost:6060",
+            "demo-test-gateway-821209474183.europe-west1.run.app",
+            "demo-test-gateway",
+            "quickcode-demo-test-gateway-api",
+            "demo-test-gateway.quickcode.net"
+          ]
+        },
+        "transforms": [
+          {
+            "PathPattern": "api/identity-module/{**catch-all}"
+          }
+        ]
+      },
+      "inventory-module": {
+        "routeId": "inventory-module",
+        "clusterId": "inventory-module-api",
+        "authorizationPolicy": "QuickCodeGatewayPolicy",
+        "match": {
+          "path": "api/inventory-module/{**catch-all}",
+          "hosts": [
+            "localhost:6060",
+            "demo-test-gateway-821209474183.europe-west1.run.app",
+            "demo-test-gateway",
+            "quickcode-demo-test-gateway-api",
+            "demo-test-gateway.quickcode.net"
+          ]
+        },
+        "transforms": [
+          {
+            "PathPattern": "api/inventory-module/{**catch-all}"
+          }
+        ]
+      },
+      "order-module": {
+        "routeId": "order-module",
+        "clusterId": "order-module-api",
+        "authorizationPolicy": "QuickCodeGatewayPolicy",
+        "match": {
+          "path": "api/order-module/{**catch-all}",
+          "hosts": [
+            "localhost:6060",
+            "demo-test-gateway-821209474183.europe-west1.run.app",
+            "demo-test-gateway",
+            "quickcode-demo-test-gateway-api",
+            "demo-test-gateway.quickcode.net"
+          ]
+        },
+        "transforms": [
+          {
+            "PathPattern": "api/order-module/{**catch-all}"
+          }
+        ]
+      },
+      "product-catalog-module": {
+        "routeId": "product-catalog-module",
+        "clusterId": "product-catalog-module-api",
+        "authorizationPolicy": "QuickCodeGatewayPolicy",
+        "match": {
+          "path": "api/product-catalog-module/{**catch-all}",
+          "hosts": [
+            "localhost:6060",
+            "demo-test-gateway-821209474183.europe-west1.run.app",
+            "demo-test-gateway",
+            "quickcode-demo-test-gateway-api",
+            "demo-test-gateway.quickcode.net"
+          ]
+        },
+        "transforms": [
+          {
+            "PathPattern": "api/product-catalog-module/{**catch-all}"
+          }
+        ]
+      },
+      "shipping-module": {
+        "routeId": "shipping-module",
+        "clusterId": "shipping-module-api",
+        "authorizationPolicy": "QuickCodeGatewayPolicy",
+        "match": {
+          "path": "api/shipping-module/{**catch-all}",
+          "hosts": [
+            "localhost:6060",
+            "demo-test-gateway-821209474183.europe-west1.run.app",
+            "demo-test-gateway",
+            "quickcode-demo-test-gateway-api",
+            "demo-test-gateway.quickcode.net"
+          ]
+        },
+        "transforms": [
+          {
+            "PathPattern": "api/shipping-module/{**catch-all}"
+          }
+        ]
+      }
+    }
+  }
+}

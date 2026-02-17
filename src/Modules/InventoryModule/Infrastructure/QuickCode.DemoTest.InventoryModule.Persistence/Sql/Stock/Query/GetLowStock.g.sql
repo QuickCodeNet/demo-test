@@ -1,0 +1,5 @@
+﻿SELECT COUNT(*) 
+FROM [STOCKS] 
+WHERE [IsDeleted] = 0 
+	AND [QUANTITY] < '10' 
+ORDER BY [ID] 

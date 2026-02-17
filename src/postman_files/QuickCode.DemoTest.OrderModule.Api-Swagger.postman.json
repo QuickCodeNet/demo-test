@@ -1,0 +1,2690 @@
+{
+  "info": {
+    "name": "QuickCode - DemoTest - OrderModule Api (1.0.0.0)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "version": "v1"
+  },
+  "item": [
+    {
+      "name": "Authentication",
+      "item": [
+        {
+          "name": "Login",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/auth/login",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "auth",
+                "login"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"email\": \"demo@quickcode.net\",\r\n  \"password\": \"String1!\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "var json = pm.response.json();",
+                  "var token = json.accessToken;",
+                  "var refreshToken = json.refreshToken;",
+                  "const isEnvSelected = pm.environment.name && pm.environment.name !== \"no_env\";",
+                  "if (isEnvSelected) {",
+                  "    pm.environment.set(\"access_token\", token);",
+                  "    pm.environment.set(\"refresh_token\", refreshToken);",
+                  "} else {",
+                  "    pm.collectionVariables.set(\"access_token\", token);",
+                  "    pm.collectionVariables.set(\"refresh_token\", refreshToken);",
+                  "}",
+                  "console.log(`Selected Environment: ${pm.environment.name || \"none\"}`);"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const fallback_env = \"local\";",
+              "const default_base_url = \"http://localhost:6060\";",
+              "",
+              "const isEnvSelected = pm.environment.name && pm.environment.name !== \"no_env\";",
+              "",
+              "let env;",
+              "let base_url;",
+              "",
+              "env = pm.variables.get(\"active_env\") || fallback_env;",
+              "",
+              "if (isEnvSelected) {",
+              "    env = pm.environment.get(\"active_env\");",
+              "",
+              "    if (!env) {",
+              "        env = pm.variables.get(\"active_env\") || fallback_env;",
+              "        pm.environment.set(\"active_env\", env);",
+              "    }",
+              "}",
+              "",
+              "base_url = pm.variables.get(`base_url_${env}`) || default_base_url;",
+              "pm.variables.set(\"base_url\", base_url);",
+              "",
+              "console.log(`Selected Environment: ${pm.environment.name || \"none\"}`);",
+              "console.log(`Resolved active_env: ${env}`);",
+              "console.log(`Resolved base_url: ${base_url}`);"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "AuditLogs",
+      "item": [
+        {
+          "name": "AuditLogsList",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/audit-logs",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "audit-logs"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "AuditLogsInsert",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/audit-logs",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "audit-logs"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":\"string\",\"entityName\":\"string\",\"entityId\":\"string\",\"action\":\"string\",\"userId\":\"string\",\"userName\":\"string\",\"userGroup\":\"string\",\"timestamp\":\"string\",\"oldValues\":\"string\",\"newValues\":\"string\",\"changedColumns\":\"string\",\"isChanged\":true,\"changeSummary\":\"string\",\"ipAddress\":\"string\",\"userAgent\":\"string\",\"correlationId\":\"string\",\"isSuccess\":true,\"errorMessage\":\"string\",\"hash\":\"string\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "AuditLogsCount",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/audit-logs/count",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "audit-logs",
+                "count"
+              ]
+            }
+          }
+        },
+        {
+          "name": "AuditLogsGetItem",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/audit-logs/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "audit-logs",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "AuditLogsUpdate",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/audit-logs/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "audit-logs",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":\"string\",\"entityName\":\"string\",\"entityId\":\"string\",\"action\":\"string\",\"userId\":\"string\",\"userName\":\"string\",\"userGroup\":\"string\",\"timestamp\":\"string\",\"oldValues\":\"string\",\"newValues\":\"string\",\"changedColumns\":\"string\",\"isChanged\":true,\"changeSummary\":\"string\",\"ipAddress\":\"string\",\"userAgent\":\"string\",\"correlationId\":\"string\",\"isSuccess\":true,\"errorMessage\":\"string\",\"hash\":\"string\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "AuditLogsDelete",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/audit-logs/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "audit-logs",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const fallback_env = \"local\";",
+              "const default_base_url = \"http://localhost:6060\";",
+              "",
+              "const isEnvSelected = pm.environment.name && pm.environment.name !== \"no_env\";",
+              "",
+              "let env;",
+              "let base_url;",
+              "",
+              "env = pm.variables.get(\"active_env\") || fallback_env;",
+              "",
+              "if (isEnvSelected) {",
+              "    env = pm.environment.get(\"active_env\");",
+              "",
+              "    if (!env) {",
+              "        env = pm.variables.get(\"active_env\") || fallback_env;",
+              "        pm.environment.set(\"active_env\", env);",
+              "    }",
+              "}",
+              "",
+              "base_url = pm.variables.get(`base_url_${env}`) || default_base_url;",
+              "pm.variables.set(\"base_url\", base_url);",
+              "",
+              "console.log(`Selected Environment: ${pm.environment.name || \"none\"}`);",
+              "console.log(`Resolved active_env: ${env}`);",
+              "console.log(`Resolved base_url: ${base_url}`);"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BillingAddresses",
+      "item": [
+        {
+          "name": "BillingAddressesList",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/billing-addresses",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "billing-addresses"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "BillingAddressesInsert",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/billing-addresses",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "billing-addresses"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":123,\"customerId\":123,\"addressLine1\":\"string\",\"addressLine2\":\"string\",\"city\":\"string\",\"state\":\"string\",\"zipCode\":\"string\",\"country\":\"string\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "BillingAddressesCount",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/billing-addresses/count",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "billing-addresses",
+                "count"
+              ]
+            }
+          }
+        },
+        {
+          "name": "BillingAddressesGetItem",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/billing-addresses/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "billing-addresses",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "BillingAddressesUpdate",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/billing-addresses/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "billing-addresses",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":123,\"customerId\":123,\"addressLine1\":\"string\",\"addressLine2\":\"string\",\"city\":\"string\",\"state\":\"string\",\"zipCode\":\"string\",\"country\":\"string\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "BillingAddressesDelete",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/billing-addresses/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "billing-addresses",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "BillingAddressesGetByCustomer",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/billing-addresses/get-by-customer/:billingAddressesCustomerId",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "billing-addresses",
+                "get-by-customer",
+                ":billingAddressesCustomerId"
+              ],
+              "variable": [
+                {
+                  "key": "billingAddressesCustomerId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "BillingAddressesGetOrdersForBillingAddresses",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/billing-addresses/:billingAddressId/order",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "billing-addresses",
+                ":billingAddressId",
+                "order"
+              ],
+              "variable": [
+                {
+                  "key": "billingAddressId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "billingAddressesId",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "BillingAddressesGetOrdersForBillingAddressesDetails",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/billing-addresses/:billingAddressId/order/:orderId",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "billing-addresses",
+                ":billingAddressId",
+                "order",
+                ":orderId"
+              ],
+              "variable": [
+                {
+                  "key": "billingAddressId",
+                  "value": ""
+                },
+                {
+                  "key": "orderId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "billingAddressesId",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "ordersId",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const fallback_env = \"local\";",
+              "const default_base_url = \"http://localhost:6060\";",
+              "",
+              "const isEnvSelected = pm.environment.name && pm.environment.name !== \"no_env\";",
+              "",
+              "let env;",
+              "let base_url;",
+              "",
+              "env = pm.variables.get(\"active_env\") || fallback_env;",
+              "",
+              "if (isEnvSelected) {",
+              "    env = pm.environment.get(\"active_env\");",
+              "",
+              "    if (!env) {",
+              "        env = pm.variables.get(\"active_env\") || fallback_env;",
+              "        pm.environment.set(\"active_env\", env);",
+              "    }",
+              "}",
+              "",
+              "base_url = pm.variables.get(`base_url_${env}`) || default_base_url;",
+              "pm.variables.set(\"base_url\", base_url);",
+              "",
+              "console.log(`Selected Environment: ${pm.environment.name || \"none\"}`);",
+              "console.log(`Resolved active_env: ${env}`);",
+              "console.log(`Resolved base_url: ${base_url}`);"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "OrderItems",
+      "item": [
+        {
+          "name": "OrderItemsList",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/order-items",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "order-items"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "OrderItemsInsert",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/order-items",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "order-items"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":123,\"orderId\":123,\"productId\":123,\"quantity\":123,\"price\":123.45}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "OrderItemsCount",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/order-items/count",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "order-items",
+                "count"
+              ]
+            }
+          }
+        },
+        {
+          "name": "OrderItemsGetItem",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/order-items/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "order-items",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "OrderItemsUpdate",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/order-items/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "order-items",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":123,\"orderId\":123,\"productId\":123,\"quantity\":123,\"price\":123.45}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "OrderItemsDelete",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/order-items/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "order-items",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "OrderItemsGetByOrder",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/order-items/get-by-order/:orderItemsOrderId",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "order-items",
+                "get-by-order",
+                ":orderItemsOrderId"
+              ],
+              "variable": [
+                {
+                  "key": "orderItemsOrderId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const fallback_env = \"local\";",
+              "const default_base_url = \"http://localhost:6060\";",
+              "",
+              "const isEnvSelected = pm.environment.name && pm.environment.name !== \"no_env\";",
+              "",
+              "let env;",
+              "let base_url;",
+              "",
+              "env = pm.variables.get(\"active_env\") || fallback_env;",
+              "",
+              "if (isEnvSelected) {",
+              "    env = pm.environment.get(\"active_env\");",
+              "",
+              "    if (!env) {",
+              "        env = pm.variables.get(\"active_env\") || fallback_env;",
+              "        pm.environment.set(\"active_env\", env);",
+              "    }",
+              "}",
+              "",
+              "base_url = pm.variables.get(`base_url_${env}`) || default_base_url;",
+              "pm.variables.set(\"base_url\", base_url);",
+              "",
+              "console.log(`Selected Environment: ${pm.environment.name || \"none\"}`);",
+              "console.log(`Resolved active_env: ${env}`);",
+              "console.log(`Resolved base_url: ${base_url}`);"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "OrderNotes",
+      "item": [
+        {
+          "name": "OrderNotesList",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/order-notes",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "order-notes"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "OrderNotesInsert",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/order-notes",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "order-notes"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":123,\"orderId\":123,\"note\":\"string\",\"createdDate\":\"string\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "OrderNotesCount",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/order-notes/count",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "order-notes",
+                "count"
+              ]
+            }
+          }
+        },
+        {
+          "name": "OrderNotesGetItem",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/order-notes/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "order-notes",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "OrderNotesUpdate",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/order-notes/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "order-notes",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":123,\"orderId\":123,\"note\":\"string\",\"createdDate\":\"string\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "OrderNotesDelete",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/order-notes/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "order-notes",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "OrderNotesGetByOrder",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/order-notes/get-by-order/:orderNotesOrderId",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "order-notes",
+                "get-by-order",
+                ":orderNotesOrderId"
+              ],
+              "variable": [
+                {
+                  "key": "orderNotesOrderId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const fallback_env = \"local\";",
+              "const default_base_url = \"http://localhost:6060\";",
+              "",
+              "const isEnvSelected = pm.environment.name && pm.environment.name !== \"no_env\";",
+              "",
+              "let env;",
+              "let base_url;",
+              "",
+              "env = pm.variables.get(\"active_env\") || fallback_env;",
+              "",
+              "if (isEnvSelected) {",
+              "    env = pm.environment.get(\"active_env\");",
+              "",
+              "    if (!env) {",
+              "        env = pm.variables.get(\"active_env\") || fallback_env;",
+              "        pm.environment.set(\"active_env\", env);",
+              "    }",
+              "}",
+              "",
+              "base_url = pm.variables.get(`base_url_${env}`) || default_base_url;",
+              "pm.variables.set(\"base_url\", base_url);",
+              "",
+              "console.log(`Selected Environment: ${pm.environment.name || \"none\"}`);",
+              "console.log(`Resolved active_env: ${env}`);",
+              "console.log(`Resolved base_url: ${base_url}`);"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Orders",
+      "item": [
+        {
+          "name": "OrdersList",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/orders",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "orders"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "OrdersInsert",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/orders",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "orders"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":123,\"customerId\":123,\"orderDate\":\"string\",\"totalAmount\":123.45,\"shippingAddressId\":123,\"billingAddressId\":123,\"orderStatus\":\"string\",\"paymentStatus\":\"string\",\"paymentMethodId\":123,\"createdDate\":\"string\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "OrdersCount",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/orders/count",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "orders",
+                "count"
+              ]
+            }
+          }
+        },
+        {
+          "name": "OrdersGetItem",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/orders/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "orders",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "OrdersUpdate",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/orders/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "orders",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":123,\"customerId\":123,\"orderDate\":\"string\",\"totalAmount\":123.45,\"shippingAddressId\":123,\"billingAddressId\":123,\"orderStatus\":\"string\",\"paymentStatus\":\"string\",\"paymentMethodId\":123,\"createdDate\":\"string\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "OrdersDelete",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/orders/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "orders",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "OrdersGetByCustomer",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/orders/get-by-customer/:ordersCustomerId",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "orders",
+                "get-by-customer",
+                ":ordersCustomerId"
+              ],
+              "variable": [
+                {
+                  "key": "ordersCustomerId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "OrdersGetByStatus",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/orders/get-by-status/:ordersOrderStatus",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "orders",
+                "get-by-status",
+                ":ordersOrderStatus"
+              ],
+              "variable": [
+                {
+                  "key": "ordersOrderStatus",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "OrdersGetPending",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/orders/get-pending/:ordersOrderStatus",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "orders",
+                "get-pending",
+                ":ordersOrderStatus"
+              ],
+              "variable": [
+                {
+                  "key": "ordersOrderStatus",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "OrdersGetDailyRevenue",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/orders/get-daily-revenue",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "orders",
+                "get-daily-revenue"
+              ]
+            }
+          }
+        },
+        {
+          "name": "OrdersGetOrderItemsForOrders",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/orders/:orderId/order-item",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "orders",
+                ":orderId",
+                "order-item"
+              ],
+              "variable": [
+                {
+                  "key": "orderId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "ordersId",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "OrdersGetOrderItemsForOrdersDetails",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/orders/:orderId/order-item/:orderItemId",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "orders",
+                ":orderId",
+                "order-item",
+                ":orderItemId"
+              ],
+              "variable": [
+                {
+                  "key": "orderId",
+                  "value": ""
+                },
+                {
+                  "key": "orderItemId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "ordersId",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "orderItemsId",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "OrdersGetOrderNotesForOrders",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/orders/:orderId/order-note",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "orders",
+                ":orderId",
+                "order-note"
+              ],
+              "variable": [
+                {
+                  "key": "orderId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "ordersId",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "OrdersGetOrderNotesForOrdersDetails",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/orders/:orderId/order-note/:orderNoteId",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "orders",
+                ":orderId",
+                "order-note",
+                ":orderNoteId"
+              ],
+              "variable": [
+                {
+                  "key": "orderId",
+                  "value": ""
+                },
+                {
+                  "key": "orderNoteId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "ordersId",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "orderNotesId",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "OrdersUpdateStatus",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/orders/update-status/:ordersId",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "orders",
+                "update-status",
+                ":ordersId"
+              ],
+              "variable": [
+                {
+                  "key": "ordersId",
+                  "value": ""
+                }
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"ordersOrderStatus\":\"string\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const fallback_env = \"local\";",
+              "const default_base_url = \"http://localhost:6060\";",
+              "",
+              "const isEnvSelected = pm.environment.name && pm.environment.name !== \"no_env\";",
+              "",
+              "let env;",
+              "let base_url;",
+              "",
+              "env = pm.variables.get(\"active_env\") || fallback_env;",
+              "",
+              "if (isEnvSelected) {",
+              "    env = pm.environment.get(\"active_env\");",
+              "",
+              "    if (!env) {",
+              "        env = pm.variables.get(\"active_env\") || fallback_env;",
+              "        pm.environment.set(\"active_env\", env);",
+              "    }",
+              "}",
+              "",
+              "base_url = pm.variables.get(`base_url_${env}`) || default_base_url;",
+              "pm.variables.set(\"base_url\", base_url);",
+              "",
+              "console.log(`Selected Environment: ${pm.environment.name || \"none\"}`);",
+              "console.log(`Resolved active_env: ${env}`);",
+              "console.log(`Resolved base_url: ${base_url}`);"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "PaymentMethods",
+      "item": [
+        {
+          "name": "PaymentMethodsList",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/payment-methods",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "payment-methods"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "PaymentMethodsInsert",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/payment-methods",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "payment-methods"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":123,\"customerId\":123,\"cardNumber\":\"string\",\"expiryDate\":\"string\",\"cvv\":\"string\",\"paymentType\":\"string\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "PaymentMethodsCount",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/payment-methods/count",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "payment-methods",
+                "count"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PaymentMethodsGetItem",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/payment-methods/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "payment-methods",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "PaymentMethodsUpdate",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/payment-methods/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "payment-methods",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":123,\"customerId\":123,\"cardNumber\":\"string\",\"expiryDate\":\"string\",\"cvv\":\"string\",\"paymentType\":\"string\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "PaymentMethodsDelete",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/payment-methods/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "payment-methods",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "PaymentMethodsGetByCustomer",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/payment-methods/get-by-customer/:paymentMethodsCustomerId",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "payment-methods",
+                "get-by-customer",
+                ":paymentMethodsCustomerId"
+              ],
+              "variable": [
+                {
+                  "key": "paymentMethodsCustomerId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "PaymentMethodsGetOrdersForPaymentMethods",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/payment-methods/:paymentMethodId/order",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "payment-methods",
+                ":paymentMethodId",
+                "order"
+              ],
+              "variable": [
+                {
+                  "key": "paymentMethodId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "paymentMethodsId",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "PaymentMethodsGetOrdersForPaymentMethodsDetails",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/payment-methods/:paymentMethodId/order/:orderId",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "payment-methods",
+                ":paymentMethodId",
+                "order",
+                ":orderId"
+              ],
+              "variable": [
+                {
+                  "key": "paymentMethodId",
+                  "value": ""
+                },
+                {
+                  "key": "orderId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "paymentMethodsId",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "ordersId",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const fallback_env = \"local\";",
+              "const default_base_url = \"http://localhost:6060\";",
+              "",
+              "const isEnvSelected = pm.environment.name && pm.environment.name !== \"no_env\";",
+              "",
+              "let env;",
+              "let base_url;",
+              "",
+              "env = pm.variables.get(\"active_env\") || fallback_env;",
+              "",
+              "if (isEnvSelected) {",
+              "    env = pm.environment.get(\"active_env\");",
+              "",
+              "    if (!env) {",
+              "        env = pm.variables.get(\"active_env\") || fallback_env;",
+              "        pm.environment.set(\"active_env\", env);",
+              "    }",
+              "}",
+              "",
+              "base_url = pm.variables.get(`base_url_${env}`) || default_base_url;",
+              "pm.variables.set(\"base_url\", base_url);",
+              "",
+              "console.log(`Selected Environment: ${pm.environment.name || \"none\"}`);",
+              "console.log(`Resolved active_env: ${env}`);",
+              "console.log(`Resolved base_url: ${base_url}`);"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "ShippingAddresses",
+      "item": [
+        {
+          "name": "ShippingAddressesList",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/shipping-addresses",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "shipping-addresses"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShippingAddressesInsert",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/shipping-addresses",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "shipping-addresses"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":123,\"customerId\":123,\"addressLine1\":\"string\",\"addressLine2\":\"string\",\"city\":\"string\",\"state\":\"string\",\"zipCode\":\"string\",\"country\":\"string\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "ShippingAddressesCount",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/shipping-addresses/count",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "shipping-addresses",
+                "count"
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShippingAddressesGetItem",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/shipping-addresses/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "shipping-addresses",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShippingAddressesUpdate",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/shipping-addresses/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "shipping-addresses",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":123,\"customerId\":123,\"addressLine1\":\"string\",\"addressLine2\":\"string\",\"city\":\"string\",\"state\":\"string\",\"zipCode\":\"string\",\"country\":\"string\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "ShippingAddressesDelete",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/shipping-addresses/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "shipping-addresses",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShippingAddressesGetByCustomer",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/shipping-addresses/get-by-customer/:shippingAddressesCustomerId",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "shipping-addresses",
+                "get-by-customer",
+                ":shippingAddressesCustomerId"
+              ],
+              "variable": [
+                {
+                  "key": "shippingAddressesCustomerId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShippingAddressesGetOrdersForShippingAddresses",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/shipping-addresses/:shippingAddressId/order",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "shipping-addresses",
+                ":shippingAddressId",
+                "order"
+              ],
+              "variable": [
+                {
+                  "key": "shippingAddressId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "shippingAddressesId",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShippingAddressesGetOrdersForShippingAddressesDetails",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/order-module/shipping-addresses/:shippingAddressId/order/:orderId",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "order-module",
+                "shipping-addresses",
+                ":shippingAddressId",
+                "order",
+                ":orderId"
+              ],
+              "variable": [
+                {
+                  "key": "shippingAddressId",
+                  "value": ""
+                },
+                {
+                  "key": "orderId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "shippingAddressesId",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "ordersId",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const fallback_env = \"local\";",
+              "const default_base_url = \"http://localhost:6060\";",
+              "",
+              "const isEnvSelected = pm.environment.name && pm.environment.name !== \"no_env\";",
+              "",
+              "let env;",
+              "let base_url;",
+              "",
+              "env = pm.variables.get(\"active_env\") || fallback_env;",
+              "",
+              "if (isEnvSelected) {",
+              "    env = pm.environment.get(\"active_env\");",
+              "",
+              "    if (!env) {",
+              "        env = pm.variables.get(\"active_env\") || fallback_env;",
+              "        pm.environment.set(\"active_env\", env);",
+              "    }",
+              "}",
+              "",
+              "base_url = pm.variables.get(`base_url_${env}`) || default_base_url;",
+              "pm.variables.set(\"base_url\", base_url);",
+              "",
+              "console.log(`Selected Environment: ${pm.environment.name || \"none\"}`);",
+              "console.log(`Resolved active_env: ${env}`);",
+              "console.log(`Resolved base_url: ${base_url}`);"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:6060",
+      "type": "string"
+    },
+    {
+      "key": "base_url_docker",
+      "value": "http://localhost:6060",
+      "type": "string"
+    },
+    {
+      "key": "base_url_test",
+      "value": "http://localhost:6060",
+      "type": "string"
+    },
+    {
+      "key": "base_url_prod",
+      "value": "https://demo-test-gateway-821209474183.europe-west1.run.app",
+      "type": "string"
+    },
+    {
+      "key": "base_url_cloudrun",
+      "value": "https://demo-test-gateway.quickcode.net",
+      "type": "string"
+    },
+    {
+      "key": "active_env",
+      "value": "docker",
+      "type": "string"
+    },
+    {
+      "key": "projectName",
+      "value": "DemoTest",
+      "type": "string"
+    }
+  ]
+}

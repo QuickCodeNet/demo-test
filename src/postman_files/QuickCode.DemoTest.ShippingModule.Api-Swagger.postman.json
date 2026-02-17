@@ -1,0 +1,2533 @@
+{
+  "info": {
+    "name": "QuickCode - DemoTest - ShippingModule Api (1.0.0.0)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "version": "v1"
+  },
+  "item": [
+    {
+      "name": "Authentication",
+      "item": [
+        {
+          "name": "Login",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/auth/login",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "auth",
+                "login"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"email\": \"demo@quickcode.net\",\r\n  \"password\": \"String1!\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "var json = pm.response.json();",
+                  "var token = json.accessToken;",
+                  "var refreshToken = json.refreshToken;",
+                  "const isEnvSelected = pm.environment.name && pm.environment.name !== \"no_env\";",
+                  "if (isEnvSelected) {",
+                  "    pm.environment.set(\"access_token\", token);",
+                  "    pm.environment.set(\"refresh_token\", refreshToken);",
+                  "} else {",
+                  "    pm.collectionVariables.set(\"access_token\", token);",
+                  "    pm.collectionVariables.set(\"refresh_token\", refreshToken);",
+                  "}",
+                  "console.log(`Selected Environment: ${pm.environment.name || \"none\"}`);"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const fallback_env = \"local\";",
+              "const default_base_url = \"http://localhost:6060\";",
+              "",
+              "const isEnvSelected = pm.environment.name && pm.environment.name !== \"no_env\";",
+              "",
+              "let env;",
+              "let base_url;",
+              "",
+              "env = pm.variables.get(\"active_env\") || fallback_env;",
+              "",
+              "if (isEnvSelected) {",
+              "    env = pm.environment.get(\"active_env\");",
+              "",
+              "    if (!env) {",
+              "        env = pm.variables.get(\"active_env\") || fallback_env;",
+              "        pm.environment.set(\"active_env\", env);",
+              "    }",
+              "}",
+              "",
+              "base_url = pm.variables.get(`base_url_${env}`) || default_base_url;",
+              "pm.variables.set(\"base_url\", base_url);",
+              "",
+              "console.log(`Selected Environment: ${pm.environment.name || \"none\"}`);",
+              "console.log(`Resolved active_env: ${env}`);",
+              "console.log(`Resolved base_url: ${base_url}`);"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "AuditLogs",
+      "item": [
+        {
+          "name": "AuditLogsList",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/audit-logs",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "audit-logs"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "AuditLogsInsert",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/audit-logs",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "audit-logs"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":\"string\",\"entityName\":\"string\",\"entityId\":\"string\",\"action\":\"string\",\"userId\":\"string\",\"userName\":\"string\",\"userGroup\":\"string\",\"timestamp\":\"string\",\"oldValues\":\"string\",\"newValues\":\"string\",\"changedColumns\":\"string\",\"isChanged\":true,\"changeSummary\":\"string\",\"ipAddress\":\"string\",\"userAgent\":\"string\",\"correlationId\":\"string\",\"isSuccess\":true,\"errorMessage\":\"string\",\"hash\":\"string\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "AuditLogsCount",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/audit-logs/count",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "audit-logs",
+                "count"
+              ]
+            }
+          }
+        },
+        {
+          "name": "AuditLogsGetItem",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/audit-logs/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "audit-logs",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "AuditLogsUpdate",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/audit-logs/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "audit-logs",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":\"string\",\"entityName\":\"string\",\"entityId\":\"string\",\"action\":\"string\",\"userId\":\"string\",\"userName\":\"string\",\"userGroup\":\"string\",\"timestamp\":\"string\",\"oldValues\":\"string\",\"newValues\":\"string\",\"changedColumns\":\"string\",\"isChanged\":true,\"changeSummary\":\"string\",\"ipAddress\":\"string\",\"userAgent\":\"string\",\"correlationId\":\"string\",\"isSuccess\":true,\"errorMessage\":\"string\",\"hash\":\"string\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "AuditLogsDelete",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/audit-logs/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "audit-logs",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const fallback_env = \"local\";",
+              "const default_base_url = \"http://localhost:6060\";",
+              "",
+              "const isEnvSelected = pm.environment.name && pm.environment.name !== \"no_env\";",
+              "",
+              "let env;",
+              "let base_url;",
+              "",
+              "env = pm.variables.get(\"active_env\") || fallback_env;",
+              "",
+              "if (isEnvSelected) {",
+              "    env = pm.environment.get(\"active_env\");",
+              "",
+              "    if (!env) {",
+              "        env = pm.variables.get(\"active_env\") || fallback_env;",
+              "        pm.environment.set(\"active_env\", env);",
+              "    }",
+              "}",
+              "",
+              "base_url = pm.variables.get(`base_url_${env}`) || default_base_url;",
+              "pm.variables.set(\"base_url\", base_url);",
+              "",
+              "console.log(`Selected Environment: ${pm.environment.name || \"none\"}`);",
+              "console.log(`Resolved active_env: ${env}`);",
+              "console.log(`Resolved base_url: ${base_url}`);"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "DeliveryAddresses",
+      "item": [
+        {
+          "name": "DeliveryAddressesList",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/delivery-addresses",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "delivery-addresses"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "DeliveryAddressesInsert",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/delivery-addresses",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "delivery-addresses"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":123,\"customerId\":123,\"addressLine1\":\"string\",\"addressLine2\":\"string\",\"city\":\"string\",\"state\":\"string\",\"zipCode\":\"string\",\"country\":\"string\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "DeliveryAddressesCount",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/delivery-addresses/count",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "delivery-addresses",
+                "count"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DeliveryAddressesGetItem",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/delivery-addresses/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "delivery-addresses",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "DeliveryAddressesUpdate",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/delivery-addresses/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "delivery-addresses",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":123,\"customerId\":123,\"addressLine1\":\"string\",\"addressLine2\":\"string\",\"city\":\"string\",\"state\":\"string\",\"zipCode\":\"string\",\"country\":\"string\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "DeliveryAddressesDelete",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/delivery-addresses/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "delivery-addresses",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "DeliveryAddressesGetByCustomer",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/delivery-addresses/get-by-customer/:deliveryAddressesCustomerId",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "delivery-addresses",
+                "get-by-customer",
+                ":deliveryAddressesCustomerId"
+              ],
+              "variable": [
+                {
+                  "key": "deliveryAddressesCustomerId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "DeliveryAddressesGetShipmentsForDeliveryAddresses",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/delivery-addresses/:deliveryAddressId/shipment",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "delivery-addresses",
+                ":deliveryAddressId",
+                "shipment"
+              ],
+              "variable": [
+                {
+                  "key": "deliveryAddressId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "deliveryAddressesId",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "DeliveryAddressesGetShipmentsForDeliveryAddressesDetails",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/delivery-addresses/:deliveryAddressId/shipment/:shipmentId",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "delivery-addresses",
+                ":deliveryAddressId",
+                "shipment",
+                ":shipmentId"
+              ],
+              "variable": [
+                {
+                  "key": "deliveryAddressId",
+                  "value": ""
+                },
+                {
+                  "key": "shipmentId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "deliveryAddressesId",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "shipmentsId",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const fallback_env = \"local\";",
+              "const default_base_url = \"http://localhost:6060\";",
+              "",
+              "const isEnvSelected = pm.environment.name && pm.environment.name !== \"no_env\";",
+              "",
+              "let env;",
+              "let base_url;",
+              "",
+              "env = pm.variables.get(\"active_env\") || fallback_env;",
+              "",
+              "if (isEnvSelected) {",
+              "    env = pm.environment.get(\"active_env\");",
+              "",
+              "    if (!env) {",
+              "        env = pm.variables.get(\"active_env\") || fallback_env;",
+              "        pm.environment.set(\"active_env\", env);",
+              "    }",
+              "}",
+              "",
+              "base_url = pm.variables.get(`base_url_${env}`) || default_base_url;",
+              "pm.variables.set(\"base_url\", base_url);",
+              "",
+              "console.log(`Selected Environment: ${pm.environment.name || \"none\"}`);",
+              "console.log(`Resolved active_env: ${env}`);",
+              "console.log(`Resolved base_url: ${base_url}`);"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "DeliveryExceptions",
+      "item": [
+        {
+          "name": "DeliveryExceptionsList",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/delivery-exceptions",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "delivery-exceptions"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "DeliveryExceptionsInsert",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/delivery-exceptions",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "delivery-exceptions"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":123,\"shipmentId\":123,\"exceptionDate\":\"string\",\"exceptionReason\":\"string\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "DeliveryExceptionsCount",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/delivery-exceptions/count",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "delivery-exceptions",
+                "count"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DeliveryExceptionsGetItem",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/delivery-exceptions/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "delivery-exceptions",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "DeliveryExceptionsUpdate",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/delivery-exceptions/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "delivery-exceptions",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":123,\"shipmentId\":123,\"exceptionDate\":\"string\",\"exceptionReason\":\"string\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "DeliveryExceptionsDelete",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/delivery-exceptions/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "delivery-exceptions",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "DeliveryExceptionsGetByShipment",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/delivery-exceptions/get-by-shipment/:deliveryExceptionsShipmentId",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "delivery-exceptions",
+                "get-by-shipment",
+                ":deliveryExceptionsShipmentId"
+              ],
+              "variable": [
+                {
+                  "key": "deliveryExceptionsShipmentId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const fallback_env = \"local\";",
+              "const default_base_url = \"http://localhost:6060\";",
+              "",
+              "const isEnvSelected = pm.environment.name && pm.environment.name !== \"no_env\";",
+              "",
+              "let env;",
+              "let base_url;",
+              "",
+              "env = pm.variables.get(\"active_env\") || fallback_env;",
+              "",
+              "if (isEnvSelected) {",
+              "    env = pm.environment.get(\"active_env\");",
+              "",
+              "    if (!env) {",
+              "        env = pm.variables.get(\"active_env\") || fallback_env;",
+              "        pm.environment.set(\"active_env\", env);",
+              "    }",
+              "}",
+              "",
+              "base_url = pm.variables.get(`base_url_${env}`) || default_base_url;",
+              "pm.variables.set(\"base_url\", base_url);",
+              "",
+              "console.log(`Selected Environment: ${pm.environment.name || \"none\"}`);",
+              "console.log(`Resolved active_env: ${env}`);",
+              "console.log(`Resolved base_url: ${base_url}`);"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Shipments",
+      "item": [
+        {
+          "name": "ShipmentsList",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipments",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipments"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShipmentsInsert",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipments",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipments"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":123,\"orderId\":123,\"shippingCarrierId\":123,\"trackingNumber\":\"string\",\"shippingDate\":\"string\",\"estimatedDeliveryDate\":\"string\",\"actualDeliveryDate\":\"string\",\"shippingStatus\":\"string\",\"shippingCost\":123.45,\"deliveryAddressId\":123,\"createdDate\":\"string\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "ShipmentsCount",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipments/count",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipments",
+                "count"
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShipmentsGetItem",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipments/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipments",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShipmentsUpdate",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipments/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipments",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":123,\"orderId\":123,\"shippingCarrierId\":123,\"trackingNumber\":\"string\",\"shippingDate\":\"string\",\"estimatedDeliveryDate\":\"string\",\"actualDeliveryDate\":\"string\",\"shippingStatus\":\"string\",\"shippingCost\":123.45,\"deliveryAddressId\":123,\"createdDate\":\"string\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "ShipmentsDelete",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipments/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipments",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShipmentsGetByOrder",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipments/get-by-order/:shipmentsOrderId",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipments",
+                "get-by-order",
+                ":shipmentsOrderId"
+              ],
+              "variable": [
+                {
+                  "key": "shipmentsOrderId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShipmentsGetByStatus",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipments/get-by-status/:shipmentsShippingStatus",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipments",
+                "get-by-status",
+                ":shipmentsShippingStatus"
+              ],
+              "variable": [
+                {
+                  "key": "shipmentsShippingStatus",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShipmentsGetShipmentTrackingEventsForShipments",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipments/:shipmentId/shipment-tracking-event",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipments",
+                ":shipmentId",
+                "shipment-tracking-event"
+              ],
+              "variable": [
+                {
+                  "key": "shipmentId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "shipmentsId",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShipmentsGetShipmentTrackingEventsForShipmentsDetails",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipments/:shipmentId/shipment-tracking-event/:shipmentTrackingEventId",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipments",
+                ":shipmentId",
+                "shipment-tracking-event",
+                ":shipmentTrackingEventId"
+              ],
+              "variable": [
+                {
+                  "key": "shipmentId",
+                  "value": ""
+                },
+                {
+                  "key": "shipmentTrackingEventId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "shipmentsId",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "shipmentTrackingEventsId",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShipmentsGetDeliveryExceptionsForShipments",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipments/:shipmentId/delivery-exception",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipments",
+                ":shipmentId",
+                "delivery-exception"
+              ],
+              "variable": [
+                {
+                  "key": "shipmentId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "shipmentsId",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShipmentsGetDeliveryExceptionsForShipmentsDetails",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipments/:shipmentId/delivery-exception/:deliveryExceptionId",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipments",
+                ":shipmentId",
+                "delivery-exception",
+                ":deliveryExceptionId"
+              ],
+              "variable": [
+                {
+                  "key": "shipmentId",
+                  "value": ""
+                },
+                {
+                  "key": "deliveryExceptionId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "shipmentsId",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "deliveryExceptionsId",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShipmentsUpdateStatus",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipments/update-status/:shipmentsId",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipments",
+                "update-status",
+                ":shipmentsId"
+              ],
+              "variable": [
+                {
+                  "key": "shipmentsId",
+                  "value": ""
+                }
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"shipmentsShippingStatus\":\"string\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const fallback_env = \"local\";",
+              "const default_base_url = \"http://localhost:6060\";",
+              "",
+              "const isEnvSelected = pm.environment.name && pm.environment.name !== \"no_env\";",
+              "",
+              "let env;",
+              "let base_url;",
+              "",
+              "env = pm.variables.get(\"active_env\") || fallback_env;",
+              "",
+              "if (isEnvSelected) {",
+              "    env = pm.environment.get(\"active_env\");",
+              "",
+              "    if (!env) {",
+              "        env = pm.variables.get(\"active_env\") || fallback_env;",
+              "        pm.environment.set(\"active_env\", env);",
+              "    }",
+              "}",
+              "",
+              "base_url = pm.variables.get(`base_url_${env}`) || default_base_url;",
+              "pm.variables.set(\"base_url\", base_url);",
+              "",
+              "console.log(`Selected Environment: ${pm.environment.name || \"none\"}`);",
+              "console.log(`Resolved active_env: ${env}`);",
+              "console.log(`Resolved base_url: ${base_url}`);"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "ShipmentTrackingEvents",
+      "item": [
+        {
+          "name": "ShipmentTrackingEventsList",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipment-tracking-events",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipment-tracking-events"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShipmentTrackingEventsInsert",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipment-tracking-events",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipment-tracking-events"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":123,\"shipmentId\":123,\"eventDate\":\"string\",\"eventLocation\":\"string\",\"eventDescription\":\"string\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "ShipmentTrackingEventsCount",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipment-tracking-events/count",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipment-tracking-events",
+                "count"
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShipmentTrackingEventsGetItem",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipment-tracking-events/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipment-tracking-events",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShipmentTrackingEventsUpdate",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipment-tracking-events/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipment-tracking-events",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":123,\"shipmentId\":123,\"eventDate\":\"string\",\"eventLocation\":\"string\",\"eventDescription\":\"string\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "ShipmentTrackingEventsDelete",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipment-tracking-events/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipment-tracking-events",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShipmentTrackingEventsGetByShipment",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipment-tracking-events/get-by-shipment/:shipmentTrackingEventsShipmentId",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipment-tracking-events",
+                "get-by-shipment",
+                ":shipmentTrackingEventsShipmentId"
+              ],
+              "variable": [
+                {
+                  "key": "shipmentTrackingEventsShipmentId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const fallback_env = \"local\";",
+              "const default_base_url = \"http://localhost:6060\";",
+              "",
+              "const isEnvSelected = pm.environment.name && pm.environment.name !== \"no_env\";",
+              "",
+              "let env;",
+              "let base_url;",
+              "",
+              "env = pm.variables.get(\"active_env\") || fallback_env;",
+              "",
+              "if (isEnvSelected) {",
+              "    env = pm.environment.get(\"active_env\");",
+              "",
+              "    if (!env) {",
+              "        env = pm.variables.get(\"active_env\") || fallback_env;",
+              "        pm.environment.set(\"active_env\", env);",
+              "    }",
+              "}",
+              "",
+              "base_url = pm.variables.get(`base_url_${env}`) || default_base_url;",
+              "pm.variables.set(\"base_url\", base_url);",
+              "",
+              "console.log(`Selected Environment: ${pm.environment.name || \"none\"}`);",
+              "console.log(`Resolved active_env: ${env}`);",
+              "console.log(`Resolved base_url: ${base_url}`);"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "ShippingCarriers",
+      "item": [
+        {
+          "name": "ShippingCarriersList",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipping-carriers",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipping-carriers"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShippingCarriersInsert",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipping-carriers",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipping-carriers"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":123,\"name\":\"string\",\"trackingUrlFormat\":\"string\",\"isActive\":true}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "ShippingCarriersCount",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipping-carriers/count",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipping-carriers",
+                "count"
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShippingCarriersGetItem",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipping-carriers/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipping-carriers",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShippingCarriersUpdate",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipping-carriers/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipping-carriers",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":123,\"name\":\"string\",\"trackingUrlFormat\":\"string\",\"isActive\":true}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "ShippingCarriersDelete",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipping-carriers/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipping-carriers",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShippingCarriersGetActive",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipping-carriers/get-active/:shippingCarriersIsActive",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipping-carriers",
+                "get-active",
+                ":shippingCarriersIsActive"
+              ],
+              "variable": [
+                {
+                  "key": "shippingCarriersIsActive",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShippingCarriersGetShipmentsForShippingCarriers",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipping-carriers/:shippingCarrierId/shipment",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipping-carriers",
+                ":shippingCarrierId",
+                "shipment"
+              ],
+              "variable": [
+                {
+                  "key": "shippingCarrierId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "shippingCarriersId",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShippingCarriersGetShipmentsForShippingCarriersDetails",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipping-carriers/:shippingCarrierId/shipment/:shipmentId",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipping-carriers",
+                ":shippingCarrierId",
+                "shipment",
+                ":shipmentId"
+              ],
+              "variable": [
+                {
+                  "key": "shippingCarrierId",
+                  "value": ""
+                },
+                {
+                  "key": "shipmentId",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "shippingCarriersId",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "shipmentsId",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const fallback_env = \"local\";",
+              "const default_base_url = \"http://localhost:6060\";",
+              "",
+              "const isEnvSelected = pm.environment.name && pm.environment.name !== \"no_env\";",
+              "",
+              "let env;",
+              "let base_url;",
+              "",
+              "env = pm.variables.get(\"active_env\") || fallback_env;",
+              "",
+              "if (isEnvSelected) {",
+              "    env = pm.environment.get(\"active_env\");",
+              "",
+              "    if (!env) {",
+              "        env = pm.variables.get(\"active_env\") || fallback_env;",
+              "        pm.environment.set(\"active_env\", env);",
+              "    }",
+              "}",
+              "",
+              "base_url = pm.variables.get(`base_url_${env}`) || default_base_url;",
+              "pm.variables.set(\"base_url\", base_url);",
+              "",
+              "console.log(`Selected Environment: ${pm.environment.name || \"none\"}`);",
+              "console.log(`Resolved active_env: ${env}`);",
+              "console.log(`Resolved base_url: ${base_url}`);"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "ShippingRates",
+      "item": [
+        {
+          "name": "ShippingRatesList",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipping-rates",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipping-rates"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShippingRatesInsert",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipping-rates",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipping-rates"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":123,\"carrierId\":123,\"destinationZipCode\":\"string\",\"weightFrom\":123.45,\"weightTo\":123.45,\"rate\":123.45}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "ShippingRatesCount",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipping-rates/count",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipping-rates",
+                "count"
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShippingRatesGetItem",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipping-rates/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipping-rates",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShippingRatesUpdate",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipping-rates/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipping-rates",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"id\":123,\"carrierId\":123,\"destinationZipCode\":\"string\",\"weightFrom\":123.45,\"weightTo\":123.45,\"rate\":123.45}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "ShippingRatesDelete",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipping-rates/:id",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipping-rates",
+                ":id"
+              ],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "ShippingRatesGetByCarrierAndZip",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/shipping-module/shipping-rates/get-by-carrier-and-zip/:shippingRatesCarrierId/:shippingRatesDestinationZipCode",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "shipping-module",
+                "shipping-rates",
+                "get-by-carrier-and-zip",
+                ":shippingRatesCarrierId",
+                ":shippingRatesDestinationZipCode"
+              ],
+              "variable": [
+                {
+                  "key": "shippingRatesCarrierId",
+                  "value": ""
+                },
+                {
+                  "key": "shippingRatesDestinationZipCode",
+                  "value": ""
+                }
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                },
+                {
+                  "key": "size",
+                  "value": "sample",
+                  "description": "",
+                  "disabled": true
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const fallback_env = \"local\";",
+              "const default_base_url = \"http://localhost:6060\";",
+              "",
+              "const isEnvSelected = pm.environment.name && pm.environment.name !== \"no_env\";",
+              "",
+              "let env;",
+              "let base_url;",
+              "",
+              "env = pm.variables.get(\"active_env\") || fallback_env;",
+              "",
+              "if (isEnvSelected) {",
+              "    env = pm.environment.get(\"active_env\");",
+              "",
+              "    if (!env) {",
+              "        env = pm.variables.get(\"active_env\") || fallback_env;",
+              "        pm.environment.set(\"active_env\", env);",
+              "    }",
+              "}",
+              "",
+              "base_url = pm.variables.get(`base_url_${env}`) || default_base_url;",
+              "pm.variables.set(\"base_url\", base_url);",
+              "",
+              "console.log(`Selected Environment: ${pm.environment.name || \"none\"}`);",
+              "console.log(`Resolved active_env: ${env}`);",
+              "console.log(`Resolved base_url: ${base_url}`);"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:6060",
+      "type": "string"
+    },
+    {
+      "key": "base_url_docker",
+      "value": "http://localhost:6060",
+      "type": "string"
+    },
+    {
+      "key": "base_url_test",
+      "value": "http://localhost:6060",
+      "type": "string"
+    },
+    {
+      "key": "base_url_prod",
+      "value": "https://demo-test-gateway-821209474183.europe-west1.run.app",
+      "type": "string"
+    },
+    {
+      "key": "base_url_cloudrun",
+      "value": "https://demo-test-gateway.quickcode.net",
+      "type": "string"
+    },
+    {
+      "key": "active_env",
+      "value": "docker",
+      "type": "string"
+    },
+    {
+      "key": "projectName",
+      "value": "DemoTest",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+services:
+  demo-test-pg-data:
+    container_name: "demo-test-pg-data"
+    image: postgres:18
+
+  demo-test-sql-data:
+    container_name: "demo-test-sql-data"
+    image: mcr.microsoft.com/mssql/server:2025-latest
+    
+  demo-test-mysql-data:
+    container_name: "demo-test-mysql-data"
+    image: mysql:8.3
+
+  demo-test-elasticsearch:
+    container_name: demo-test-elasticsearch
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.11.0
+
+  demo-test-kibana:
+    container_name: demo-test-kibana
+    image: docker.elastic.co/kibana/kibana:8.11.0
+
+  quickcode-demo-test-gateway-api:
+    container_name: "quickcode-demo-test-gateway-api"
+    image: ${DOCKER_REGISTRY-}quickcode-demo-test-gateway-api
+    build:
+      context: .
+      dockerfile: Presentation/QuickCode.DemoTest.Gateway/Dockerfile
+
+  quickcode-demo-test-identity-module-api:
+    container_name: "quickcode-demo-test-identity-module-api"
+    image: ${DOCKER_REGISTRY-}quickcode-demo-test-identity-module-api
+    build:
+      context: . 
+      dockerfile: Modules/IdentityModule/Presentation/QuickCode.DemoTest.IdentityModule.Api/Dockerfile
+    depends_on:
+      - demo-test-sql-data
+      - demo-test-pg-data
+      
+
+  quickcode-demo-test-inventory-module-api:
+    container_name: "quickcode-demo-test-inventory-module-api"
+    image: ${DOCKER_REGISTRY-}quickcode-demo-test-inventory-module-api
+    build:
+      context: . 
+      dockerfile: Modules/InventoryModule/Presentation/QuickCode.DemoTest.InventoryModule.Api/Dockerfile
+    depends_on:
+      - demo-test-sql-data
+      - demo-test-pg-data
+      
+
+  quickcode-demo-test-order-module-api:
+    container_name: "quickcode-demo-test-order-module-api"
+    image: ${DOCKER_REGISTRY-}quickcode-demo-test-order-module-api
+    build:
+      context: . 
+      dockerfile: Modules/OrderModule/Presentation/QuickCode.DemoTest.OrderModule.Api/Dockerfile
+    depends_on:
+      - demo-test-sql-data
+      - demo-test-pg-data
+      
+
+  quickcode-demo-test-product-catalog-module-api:
+    container_name: "quickcode-demo-test-product-catalog-module-api"
+    image: ${DOCKER_REGISTRY-}quickcode-demo-test-product-catalog-module-api
+    build:
+      context: . 
+      dockerfile: Modules/ProductCatalogModule/Presentation/QuickCode.DemoTest.ProductCatalogModule.Api/Dockerfile
+    depends_on:
+      - demo-test-sql-data
+      - demo-test-pg-data
+      
+
+  quickcode-demo-test-shipping-module-api:
+    container_name: "quickcode-demo-test-shipping-module-api"
+    image: ${DOCKER_REGISTRY-}quickcode-demo-test-shipping-module-api
+    build:
+      context: . 
+      dockerfile: Modules/ShippingModule/Presentation/QuickCode.DemoTest.ShippingModule.Api/Dockerfile
+    depends_on:
+      - demo-test-sql-data
+      - demo-test-pg-data
+      
+
+#[-WEB-]
+  
+  demo-test-zookeeper:
+    image: confluentinc/cp-zookeeper:7.5.0
+    container_name: demo-test-zookeeper
+    ports:
+      - "${ZOOKEEPER_PORT:-2181}:2181"
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+
+  demo-test-kafka:
+    image: confluentinc/cp-kafka:7.5.0
+    container_name: demo-test-kafka
+    depends_on:
+      - demo-test-zookeeper
+    ports:
+      - "${KAFKA_PORT:-9092}:9092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: demo-test-zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://demo-test-kafka:9092
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+
+  demo-test-kafdrop:
+    image: obsidiandynamics/kafdrop:latest
+    container_name: demo-test-kafdrop
+    ports:
+      - "${KAFDROP_PORT:-9000}:9000"
+    depends_on:
+      - demo-test-kafka
+    environment:
+      KAFKA_BROKERCONNECT: demo-test-kafka:9092
+        
+  quickcode-demo-test-portal:
+    container_name: "quickcode-demo-test-portal"
+    image: ${DOCKER_REGISTRY-}quickcode-demo-test-portal
+    build:
+      context: .
+      dockerfile: Presentation/QuickCode.DemoTest.Portal/Dockerfile
+      
+  quickcode-demo-test-event-listener-service:
+    container_name: "quickcode-demo-test-event-listener-service"
+    image: ${DOCKER_REGISTRY-}quickcode-demo-test-event-listener-service
+    build:
+      context: .
+      dockerfile: Services/QuickCode.DemoTest.EventListenerService/Dockerfile

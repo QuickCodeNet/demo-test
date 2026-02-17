@@ -1,0 +1,37 @@
+{
+  "identity-module-api": {
+    "Endpoint": "/swagger/identity-module-api/v1/swagger.json",
+    "Spec": "/swagger/v1/swagger.json",
+    "PathOptions": {
+      "/api": "/api"
+    }
+  },
+  "inventory-module-api": {
+    "Endpoint": "/swagger/inventory-module-api/v1/swagger.json",
+    "Spec": "/swagger/v1/swagger.json",
+    "PathOptions": {
+      "/api": "/api"
+    }
+  },
+  "order-module-api": {
+    "Endpoint": "/swagger/order-module-api/v1/swagger.json",
+    "Spec": "/swagger/v1/swagger.json",
+    "PathOptions": {
+      "/api": "/api"
+    }
+  },
+  "product-catalog-module-api": {
+    "Endpoint": "/swagger/product-catalog-module-api/v1/swagger.json",
+    "Spec": "/swagger/v1/swagger.json",
+    "PathOptions": {
+      "/api": "/api"
+    }
+  },
+  "shipping-module-api": {
+    "Endpoint": "/swagger/shipping-module-api/v1/swagger.json",
+    "Spec": "/swagger/v1/swagger.json",
+    "PathOptions": {
+      "/api": "/api"
+    }
+  }
+}

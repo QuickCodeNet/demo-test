@@ -1,0 +1,22 @@
+@using QuickCode.DemoTest.Portal;
+@using QuickCode.DemoTest.Portal.Models
+@using QuickCode.DemoTest.Portal.Helpers
+@using QuickCode.DemoTest.Portal.ViewComponents
+@using BSolutions.Bocons.Enumerations
+@using BSolutions.Brecons.Core.Enumerations
+@using QuickCode.DemoTest.Common.Helpers
+@using IdentityModuleApi = QuickCode.DemoTest.Common.Nswag.Clients.IdentityModuleApi.Contracts
+@using InventoryModuleApi = QuickCode.DemoTest.Common.Nswag.Clients.InventoryModuleApi.Contracts
+@using OrderModuleApi = QuickCode.DemoTest.Common.Nswag.Clients.OrderModuleApi.Contracts
+@using ProductCatalogModuleApi = QuickCode.DemoTest.Common.Nswag.Clients.ProductCatalogModuleApi.Contracts
+@using ShippingModuleApi = QuickCode.DemoTest.Common.Nswag.Clients.ShippingModuleApi.Contracts
+@using IdentityModule = QuickCode.DemoTest.Portal.Models.IdentityModule
+@using InventoryModule = QuickCode.DemoTest.Portal.Models.InventoryModule
+@using OrderModule = QuickCode.DemoTest.Portal.Models.OrderModule
+@using ProductCatalogModule = QuickCode.DemoTest.Portal.Models.ProductCatalogModule
+@using ShippingModule = QuickCode.DemoTest.Portal.Models.ShippingModule
+
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, BSolutions.Bocons
+@addTagHelper *, QuickCode.DemoTest.Portal

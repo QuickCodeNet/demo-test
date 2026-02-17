@@ -1,0 +1,5224 @@
+﻿{
+"ApiMethodAccessGrants": [
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodulesmodulenameisexistsmodulesnameModulesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodulesmodulenamemodelModulesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodulesmodulenamemodelmodelnameModulesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodulesmodulenameapimethoddefinitionModulesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodulesmodulenameapimethoddefinitionapimethoddefinitionkeyModulesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodulesmodulenameportalpagedefinitionModulesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodulesmodulenameportalpagedefinitionportalpagedefinitionkeyModulesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodulesModulesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodulescountModulesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulemodulesModulesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodulesnameModulesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulemodulesnameModulesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulemodulesnameModulesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodelsmodulenameisexistsmodelsmodulenameModelsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodelsmodelnameapimethoddefinitionModelsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodelsmodelnameapimethoddefinitionapimethoddefinitionkeyModelsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodelsmodelnameportalpagedefinitionModelsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodelsmodelnameportalpagedefinitionportalpagedefinitionkeyModelsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulemodelsdeletemodelswithmodulenamemodelsmodulenameModelsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodelsModelsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodelscountModelsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulemodelsModelsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodelsnamemodulenameModelsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulemodelsnamemodulenameModelsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulemodelsnamemodulenameModelsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulepermissiongroupspermissiongroupnameapimethodaccessgrantPermissionGroupsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulepermissiongroupspermissiongroupnameapimethodaccessgrantapimethodaccessgrantpermissiongroupnamePermissionGroupsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulepermissiongroupspermissiongroupnameportalpageaccessgrantPermissionGroupsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulepermissiongroupspermissiongroupnameportalpageaccessgrantportalpageaccessgrantpermissiongroupnamePermissionGroupsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulepermissiongroupspermissiongroupnameaspnetuserPermissionGroupsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulepermissiongroupspermissiongroupnameaspnetuseraspnetuseridPermissionGroupsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulepermissiongroupsPermissionGroupsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulepermissiongroupscountPermissionGroupsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulepermissiongroupsPermissionGroupsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulepermissiongroupsnamePermissionGroupsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulepermissiongroupsnamePermissionGroupsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulepermissiongroupsnamePermissionGroupsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethoddefinitionsgetapimethoddefinitionswithmodulenameapimethoddefinitionsmodulenameApiMethodDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethoddefinitionsgetapimethoddefinitionswithmodelnameapimethoddefinitionsmodelnameApiMethodDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethoddefinitionsexistsapimethoddefinitionswithmodulenameapimethoddefinitionsmodulenameApiMethodDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethoddefinitionsexistsapimethoddefinitionswithmodelnameapimethoddefinitionsmodelnameApiMethodDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethoddefinitionsapimethoddefinitionkeyapimethodaccessgrantApiMethodDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethoddefinitionsapimethoddefinitionkeyapimethodaccessgrantapimethodaccessgrantpermissiongroupnameApiMethodDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethoddefinitionsapimethoddefinitionkeykafkaeventApiMethodDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethoddefinitionsapimethoddefinitionkeykafkaeventkafkaeventtopicnameApiMethodDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethoddefinitionsdeleteapimethoddefinitionswithmodulenameapimethoddefinitionsmodulenameApiMethodDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethoddefinitionsdeleteapimethoddefinitionswithmodelnameapimethoddefinitionsmodelnameApiMethodDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethoddefinitionsApiMethodDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethoddefinitionscountApiMethodDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleapimethoddefinitionsApiMethodDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethoddefinitionskeyApiMethodDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleapimethoddefinitionskeyApiMethodDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethoddefinitionskeyApiMethodDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpagedefinitionsgetportalpagedefinitionswithmodulenameportalpagedefinitionsmodulenamePortalPageDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpagedefinitionsgetportalpagedefinitionswithmodelnameportalpagedefinitionsmodelnamePortalPageDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpagedefinitionsexistsportalpagedefinitionswithmodulenameportalpagedefinitionsmodulenamePortalPageDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpagedefinitionsexistsportalpagedefinitionswithmodelnameportalpagedefinitionsmodelnamePortalPageDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpagedefinitionsportalpagedefinitionkeyportalpageaccessgrantPortalPageDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpagedefinitionsportalpagedefinitionkeyportalpageaccessgrantportalpageaccessgrantpermissiongroupnamePortalPageDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpagedefinitionsdeleteportalpagedefinitionswithmodulenameportalpagedefinitionsmodulenamePortalPageDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpagedefinitionsdeleteportalpagedefinitionswithmodelnameportalpagedefinitionsmodelnamePortalPageDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpagedefinitionsPortalPageDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpagedefinitionscountPortalPageDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleportalpagedefinitionsPortalPageDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpagedefinitionskeyPortalPageDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleportalpagedefinitionskeyPortalPageDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpagedefinitionskeyPortalPageDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethodaccessgrantsgetapimethodaccessgrantnamesapimethodaccessgrantspermissiongroupnameApiMethodAccessGrantsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethodaccessgrantsclearapimethodaccessgrantsApiMethodAccessGrantsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethodaccessgrantsApiMethodAccessGrantsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethodaccessgrantscountApiMethodAccessGrantsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleapimethodaccessgrantsApiMethodAccessGrantsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethodaccessgrantspermissiongroupnameapimethoddefinitionkeyApiMethodAccessGrantsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleapimethodaccessgrantspermissiongroupnameapimethoddefinitionkeyApiMethodAccessGrantsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethodaccessgrantspermissiongroupnameapimethoddefinitionkeyApiMethodAccessGrantsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpageaccessgrantsgetportalpageaccessgrantsportalpageaccessgrantspermissiongroupnamePortalPageAccessGrantsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpageaccessgrantsgetportalpageaccessgrantportalpageaccessgrantspermissiongroupnameportalpageaccessgrantsportalpagedefinitionkeyportalpageaccessgrantspageactionPortalPageAccessGrantsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpageaccessgrantsclearportalpageaccessgrantsPortalPageAccessGrantsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpageaccessgrantsPortalPageAccessGrantsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpageaccessgrantscountPortalPageAccessGrantsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleportalpageaccessgrantsPortalPageAccessGrantsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpageaccessgrantspermissiongroupnameportalpagedefinitionkeypageactionPortalPageAccessGrantsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleportalpageaccessgrantspermissiongroupnameportalpagedefinitionkeypageactionPortalPageAccessGrantsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpageaccessgrantspermissiongroupnameportalpagedefinitionkeypageactionPortalPageAccessGrantsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalmenusdeleteportalmenuitemswithmodulenameportalmenuskeyPortalMenusController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalmenusdeleteportalmenuitemswithmodelnameportalmenuskeyportalmenusnamePortalMenusController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalmenusPortalMenusController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalmenuscountPortalMenusController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleportalmenusPortalMenusController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalmenuskeyPortalMenusController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleportalmenuskeyPortalMenusController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalmenuskeyPortalMenusController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulecolumntypesColumnTypesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulecolumntypescountColumnTypesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulecolumntypesColumnTypesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulecolumntypesidintColumnTypesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulecolumntypesidintColumnTypesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulecolumntypesidintColumnTypesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduletablecomboboxsettingsTableComboboxSettingsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduletablecomboboxsettingscountTableComboboxSettingsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduletablecomboboxsettingsTableComboboxSettingsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduletablecomboboxsettingstablenameTableComboboxSettingsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduletablecomboboxsettingstablenameTableComboboxSettingsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduletablecomboboxsettingstablenameTableComboboxSettingsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulekafkaeventsgetkafkaeventsKafkaEventsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulekafkaeventsgetactivekafkaeventsKafkaEventsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulekafkaeventsgettopicworkflowskafkaeventstopicnameapimethoddefinitionshttpmethodKafkaEventsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulekafkaeventskafkaeventtopicnametopicworkflowKafkaEventsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulekafkaeventskafkaeventtopicnametopicworkflowtopicworkflowidKafkaEventsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulekafkaeventscleankafkaeventswithmodulenameapimethoddefinitionsmodulenameKafkaEventsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulekafkaeventscleankafkaeventswithmodelnameapimethoddefinitionsmodelnameKafkaEventsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulekafkaeventsKafkaEventsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulekafkaeventscountKafkaEventsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulekafkaeventsKafkaEventsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulekafkaeventstopicnameKafkaEventsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulekafkaeventstopicnameKafkaEventsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulekafkaeventstopicnameKafkaEventsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduletopicworkflowsgetworkflowstopicworkflowskafkaeventstopicnameTopicWorkflowsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "Getapiidentitymoduletopicworkflowsgetworkflows2topicworkflowskafkaeventstopicnameTopicWorkflowsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduletopicworkflowsgettopicworkflowskafkaeventstopicnameapimethoddefinitionshttpmethodTopicWorkflowsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduletopicworkflowsTopicWorkflowsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduletopicworkflowscountTopicWorkflowsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduletopicworkflowsTopicWorkflowsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduletopicworkflowsidintTopicWorkflowsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduletopicworkflowsidintTopicWorkflowsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduletopicworkflowsidintTopicWorkflowsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetrolesaspnetroleidaspnetuserroleAspNetRolesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetrolesaspnetroleidaspnetuserroleaspnetuserroleuseridAspNetRolesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetrolesaspnetroleidaspnetroleclaimAspNetRolesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetrolesaspnetroleidaspnetroleclaimaspnetroleclaimidAspNetRolesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetrolesAspNetRolesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetrolescountAspNetRolesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetrolesAspNetRolesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetrolesidAspNetRolesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetrolesidAspNetRolesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetrolesidAspNetRolesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusersgetuseraspnetusersemailAspNetUsersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusersaspnetuseridrefreshtokenAspNetUsersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusersaspnetuseridrefreshtokenrefreshtokenidAspNetUsersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusersaspnetuseridaspnetuserroleAspNetUsersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusersaspnetuseridaspnetuserroleaspnetuserroleuseridAspNetUsersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusersaspnetuseridaspnetuserclaimAspNetUsersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusersaspnetuseridaspnetuserclaimaspnetuserclaimidAspNetUsersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusersaspnetuseridaspnetuserloginAspNetUsersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusersaspnetuseridaspnetuserloginaspnetuserloginloginproviderAspNetUsersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusersaspnetuseridaspnetusertokenAspNetUsersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusersaspnetuseridaspnetusertokenaspnetusertokenuseridAspNetUsersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusersAspNetUsersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetuserscountAspNetUsersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetusersAspNetUsersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusersidAspNetUsersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetusersidAspNetUsersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetusersidAspNetUsersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulerefreshtokensgetrefreshtokenrefreshtokenstokenRefreshTokensController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiidentitymodulerefreshtokensupdaterefreshtokensrefreshtokenstokenRefreshTokensController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulerefreshtokensRefreshTokensController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulerefreshtokenscountRefreshTokensController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulerefreshtokensRefreshTokensController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulerefreshtokensidintRefreshTokensController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulerefreshtokensidintRefreshTokensController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulerefreshtokensidintRefreshTokensController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetroleclaimsAspNetRoleClaimsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetroleclaimscountAspNetRoleClaimsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetroleclaimsAspNetRoleClaimsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetroleclaimsidintAspNetRoleClaimsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetroleclaimsidintAspNetRoleClaimsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetroleclaimsidintAspNetRoleClaimsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetuserclaimsAspNetUserClaimsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetuserclaimscountAspNetUserClaimsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetuserclaimsAspNetUserClaimsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetuserclaimsidintAspNetUserClaimsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetuserclaimsidintAspNetUserClaimsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetuserclaimsidintAspNetUserClaimsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetuserloginsAspNetUserLoginsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetuserloginscountAspNetUserLoginsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetuserloginsAspNetUserLoginsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetuserloginsloginproviderproviderkeyAspNetUserLoginsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetuserloginsloginproviderproviderkeyAspNetUserLoginsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetuserloginsloginproviderproviderkeyAspNetUserLoginsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetuserrolesAspNetUserRolesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetuserrolescountAspNetUserRolesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetuserrolesAspNetUserRolesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetuserrolesuseridroleidAspNetUserRolesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetuserrolesuseridroleidAspNetUserRolesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetuserrolesuseridroleidAspNetUserRolesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusertokensAspNetUserTokensController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusertokenscountAspNetUserTokensController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetusertokensAspNetUserTokensController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusertokensuseridAspNetUserTokensController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetusertokensuseridAspNetUserTokensController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetusertokensuseridAspNetUserTokensController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleauditlogsAuditLogsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleauditlogscountAuditLogsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleauditlogsidguidAuditLogsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulewarehousesgetactivewarehousesisactiveboolWarehousesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulewarehouseswarehouseidstockWarehousesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulewarehouseswarehouseidstockstockidWarehousesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulewarehouseswarehouseidstockmovementWarehousesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulewarehouseswarehouseidstockmovementstockmovementidWarehousesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulewarehouseswarehouseidreorderpointWarehousesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulewarehouseswarehouseidreorderpointreorderpointidWarehousesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulewarehouseswarehouseidinventoryadjustmentWarehousesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulewarehouseswarehouseidinventoryadjustmentinventoryadjustmentidWarehousesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulewarehousesWarehousesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulewarehousescountWarehousesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiinventorymodulewarehousesWarehousesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulewarehousesidintWarehousesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiinventorymodulewarehousesidintWarehousesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiinventorymodulewarehousesidintWarehousesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulestocksgetbyproductstocksproductidintStocksController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulestocksgetbywarehousestockswarehouseidintStocksController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulestocksgetlowstockStocksController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiinventorymodulestocksadjuststockstocksproductidintstockswarehouseidintStocksController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulestocksStocksController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulestockscountStocksController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiinventorymodulestocksStocksController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulestocksidintStocksController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiinventorymodulestocksidintStocksController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiinventorymodulestocksidintStocksController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulestockmovementsgetbyproductstockmovementsproductidintStockMovementsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulestockmovementsStockMovementsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulestockmovementscountStockMovementsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiinventorymodulestockmovementsStockMovementsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulestockmovementsidintStockMovementsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiinventorymodulestockmovementsidintStockMovementsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiinventorymodulestockmovementsidintStockMovementsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulereorderpointsgetbyproductreorderpointsproductidintReorderPointsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulereorderpointsReorderPointsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulereorderpointscountReorderPointsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiinventorymodulereorderpointsReorderPointsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulereorderpointsidintReorderPointsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiinventorymodulereorderpointsidintReorderPointsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiinventorymodulereorderpointsidintReorderPointsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymoduleinventoryadjustmentsgetbyproductinventoryadjustmentsproductidintInventoryAdjustmentsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymoduleinventoryadjustmentsInventoryAdjustmentsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymoduleinventoryadjustmentscountInventoryAdjustmentsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiinventorymoduleinventoryadjustmentsInventoryAdjustmentsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymoduleinventoryadjustmentsidintInventoryAdjustmentsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiinventorymoduleinventoryadjustmentsidintInventoryAdjustmentsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiinventorymoduleinventoryadjustmentsidintInventoryAdjustmentsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulesupplierssearchbynamesuppliersnameSuppliersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulesuppliersSuppliersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulesupplierscountSuppliersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiinventorymodulesuppliersSuppliersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulesuppliersidintSuppliersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiinventorymodulesuppliersidintSuppliersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiinventorymodulesuppliersidintSuppliersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymoduleauditlogsAuditLogsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymoduleauditlogscountAuditLogsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymoduleauditlogsidguidAuditLogsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordersgetbycustomerorderscustomeridintOrdersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordersgetbystatusordersorderstatusOrdersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordersgetpendingordersorderstatusOrdersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordersgetdailyrevenueOrdersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordersorderidorderitemOrdersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordersorderidorderitemorderitemidOrdersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordersorderidordernoteOrdersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordersorderidordernoteordernoteidOrdersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiordermoduleordersupdatestatusordersidintOrdersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordersOrdersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleorderscountOrdersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiordermoduleordersOrdersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordersidintOrdersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiordermoduleordersidintOrdersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiordermoduleordersidintOrdersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleorderitemsgetbyorderorderitemsorderidintOrderItemsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleorderitemsOrderItemsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleorderitemscountOrderItemsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiordermoduleorderitemsOrderItemsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleorderitemsidintOrderItemsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiordermoduleorderitemsidintOrderItemsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiordermoduleorderitemsidintOrderItemsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleshippingaddressesgetbycustomershippingaddressescustomeridintShippingAddressesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleshippingaddressesshippingaddressidorderShippingAddressesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleshippingaddressesshippingaddressidorderorderidShippingAddressesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleshippingaddressesShippingAddressesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleshippingaddressescountShippingAddressesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiordermoduleshippingaddressesShippingAddressesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleshippingaddressesidintShippingAddressesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiordermoduleshippingaddressesidintShippingAddressesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiordermoduleshippingaddressesidintShippingAddressesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermodulebillingaddressesgetbycustomerbillingaddressescustomeridintBillingAddressesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermodulebillingaddressesbillingaddressidorderBillingAddressesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermodulebillingaddressesbillingaddressidorderorderidBillingAddressesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermodulebillingaddressesBillingAddressesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermodulebillingaddressescountBillingAddressesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiordermodulebillingaddressesBillingAddressesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermodulebillingaddressesidintBillingAddressesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiordermodulebillingaddressesidintBillingAddressesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiordermodulebillingaddressesidintBillingAddressesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermodulepaymentmethodsgetbycustomerpaymentmethodscustomeridintPaymentMethodsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermodulepaymentmethodspaymentmethodidorderPaymentMethodsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermodulepaymentmethodspaymentmethodidorderorderidPaymentMethodsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermodulepaymentmethodsPaymentMethodsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermodulepaymentmethodscountPaymentMethodsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiordermodulepaymentmethodsPaymentMethodsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermodulepaymentmethodsidintPaymentMethodsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiordermodulepaymentmethodsidintPaymentMethodsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiordermodulepaymentmethodsidintPaymentMethodsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordernotesgetbyorderordernotesorderidintOrderNotesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordernotesOrderNotesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordernotescountOrderNotesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiordermoduleordernotesOrderNotesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordernotesidintOrderNotesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiordermoduleordernotesidintOrderNotesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiordermoduleordernotesidintOrderNotesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleauditlogsAuditLogsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleauditlogscountAuditLogsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleauditlogsidguidAuditLogsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductsgetactiveproductsstatusProductsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductssearchbynameproductsnameProductsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductsgetbycategoryproductscategoryidintProductsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductsgetbypricerangeproductspricedecimalProductsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductsgetnewestProductsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductsproductidproductimageProductsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductsproductidproductimageproductimageidProductsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductsproductidproductreviewProductsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductsproductidproductreviewproductreviewidProductsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductsproductidproductspecificationProductsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductsproductidproductspecificationproductspecificationidProductsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiproductcatalogmoduleproductsupdatepriceproductsidintProductsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductsProductsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductscountProductsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiproductcatalogmoduleproductsProductsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductsidintProductsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiproductcatalogmoduleproductsidintProductsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiproductcatalogmoduleproductsidintProductsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductcategoriesgetactiveproductcategoriesisactiveboolProductCategoriesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductcategoriessearchbynameproductcategoriesnameProductCategoriesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductcategoriesgetbyparentproductcategoriesparentcategoryidintProductCategoriesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductcategoriesproductcategoryidproductProductCategoriesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductcategoriesproductcategoryidproductproductidProductCategoriesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductcategoriesProductCategoriesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductcategoriescountProductCategoriesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiproductcatalogmoduleproductcategoriesProductCategoriesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductcategoriesidintProductCategoriesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiproductcatalogmoduleproductcategoriesidintProductCategoriesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiproductcatalogmoduleproductcategoriesidintProductCategoriesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductimagesgetbyproductproductimagesproductidintProductImagesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiproductcatalogmoduleproductimagessetprimaryproductimagesidintProductImagesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductimagesProductImagesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductimagescountProductImagesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiproductcatalogmoduleproductimagesProductImagesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductimagesidintProductImagesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiproductcatalogmoduleproductimagesidintProductImagesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiproductcatalogmoduleproductimagesidintProductImagesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductbrandsgetactiveproductbrandsisactiveboolProductBrandsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductbrandssearchbynameproductbrandsnameProductBrandsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductbrandsproductbrandidproductProductBrandsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductbrandsproductbrandidproductproductidProductBrandsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductbrandsProductBrandsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductbrandscountProductBrandsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiproductcatalogmoduleproductbrandsProductBrandsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductbrandsidintProductBrandsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiproductcatalogmoduleproductbrandsidintProductBrandsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiproductcatalogmoduleproductbrandsidintProductBrandsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductreviewsgetbyproductproductreviewsproductidintProductReviewsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductreviewsgetrecentproductreviewsproductidintProductReviewsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductreviewsProductReviewsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductreviewscountProductReviewsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiproductcatalogmoduleproductreviewsProductReviewsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductreviewsidintProductReviewsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiproductcatalogmoduleproductreviewsidintProductReviewsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiproductcatalogmoduleproductreviewsidintProductReviewsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductspecificationsgetbyproductproductspecificationsproductidintProductSpecificationsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductspecificationsProductSpecificationsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductspecificationscountProductSpecificationsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiproductcatalogmoduleproductspecificationsProductSpecificationsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductspecificationsidintProductSpecificationsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiproductcatalogmoduleproductspecificationsidintProductSpecificationsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiproductcatalogmoduleproductspecificationsidintProductSpecificationsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleauditlogsAuditLogsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleauditlogscountAuditLogsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleauditlogsidguidAuditLogsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshipmentsgetbyordershipmentsorderidintShipmentsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshipmentsgetbystatusshipmentsshippingstatusShipmentsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshipmentsshipmentidshipmenttrackingeventShipmentsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshipmentsshipmentidshipmenttrackingeventshipmenttrackingeventidShipmentsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshipmentsshipmentiddeliveryexceptionShipmentsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshipmentsshipmentiddeliveryexceptiondeliveryexceptionidShipmentsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapishippingmoduleshipmentsupdatestatusshipmentsidintShipmentsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshipmentsShipmentsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshipmentscountShipmentsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapishippingmoduleshipmentsShipmentsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshipmentsidintShipmentsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapishippingmoduleshipmentsidintShipmentsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapishippingmoduleshipmentsidintShipmentsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshippingcarriersgetactiveshippingcarriersisactiveboolShippingCarriersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshippingcarriersshippingcarrieridshipmentShippingCarriersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshippingcarriersshippingcarrieridshipmentshipmentidShippingCarriersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshippingcarriersShippingCarriersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshippingcarrierscountShippingCarriersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapishippingmoduleshippingcarriersShippingCarriersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshippingcarriersidintShippingCarriersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapishippingmoduleshippingcarriersidintShippingCarriersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapishippingmoduleshippingcarriersidintShippingCarriersController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduledeliveryaddressesgetbycustomerdeliveryaddressescustomeridintDeliveryAddressesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduledeliveryaddressesdeliveryaddressidshipmentDeliveryAddressesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduledeliveryaddressesdeliveryaddressidshipmentshipmentidDeliveryAddressesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduledeliveryaddressesDeliveryAddressesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduledeliveryaddressescountDeliveryAddressesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapishippingmoduledeliveryaddressesDeliveryAddressesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduledeliveryaddressesidintDeliveryAddressesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapishippingmoduledeliveryaddressesidintDeliveryAddressesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapishippingmoduledeliveryaddressesidintDeliveryAddressesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshipmenttrackingeventsgetbyshipmentshipmenttrackingeventsshipmentidintShipmentTrackingEventsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshipmenttrackingeventsShipmentTrackingEventsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshipmenttrackingeventscountShipmentTrackingEventsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapishippingmoduleshipmenttrackingeventsShipmentTrackingEventsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshipmenttrackingeventsidintShipmentTrackingEventsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapishippingmoduleshipmenttrackingeventsidintShipmentTrackingEventsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapishippingmoduleshipmenttrackingeventsidintShipmentTrackingEventsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshippingratesgetbycarrierandzipshippingratescarrieridintshippingratesdestinationzipcodeShippingRatesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshippingratesShippingRatesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshippingratescountShippingRatesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapishippingmoduleshippingratesShippingRatesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshippingratesidintShippingRatesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapishippingmoduleshippingratesidintShippingRatesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapishippingmoduleshippingratesidintShippingRatesController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduledeliveryexceptionsgetbyshipmentdeliveryexceptionsshipmentidintDeliveryExceptionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduledeliveryexceptionsDeliveryExceptionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduledeliveryexceptionscountDeliveryExceptionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapishippingmoduledeliveryexceptionsDeliveryExceptionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduledeliveryexceptionsidintDeliveryExceptionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapishippingmoduledeliveryexceptionsidintDeliveryExceptionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapishippingmoduledeliveryexceptionsidintDeliveryExceptionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleauditlogsAuditLogsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleauditlogscountAuditLogsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleauditlogsidguidAuditLogsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpagedefinitionsgetportalpagedefinitionspermissiongroupnamePortalPageDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleportalpagedefinitionsupdateportalpagepermissionPortalPageDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethoddefinitionsgetapipermissionspermissiongroupnameApiMethodDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleapimethoddefinitionsupdateapipermissionApiMethodDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduletopicworkflowsidumlApiMethodDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduletopicworkflowsiddiagramApiMethodDefinitionsController",
+    "PermissionGroupName": "Admin",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodulesmodulenameisexistsmodulesnameModulesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodulesmodulenamemodelModulesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodulesmodulenamemodelmodelnameModulesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodulesmodulenameapimethoddefinitionModulesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodulesmodulenameapimethoddefinitionapimethoddefinitionkeyModulesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodulesmodulenameportalpagedefinitionModulesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodulesmodulenameportalpagedefinitionportalpagedefinitionkeyModulesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodulesModulesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodulescountModulesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulemodulesModulesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodulesnameModulesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulemodulesnameModulesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulemodulesnameModulesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodelsmodulenameisexistsmodelsmodulenameModelsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodelsmodelnameapimethoddefinitionModelsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodelsmodelnameapimethoddefinitionapimethoddefinitionkeyModelsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodelsmodelnameportalpagedefinitionModelsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodelsmodelnameportalpagedefinitionportalpagedefinitionkeyModelsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulemodelsdeletemodelswithmodulenamemodelsmodulenameModelsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodelsModelsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodelscountModelsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulemodelsModelsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulemodelsnamemodulenameModelsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulemodelsnamemodulenameModelsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulemodelsnamemodulenameModelsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulepermissiongroupspermissiongroupnameapimethodaccessgrantPermissionGroupsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulepermissiongroupspermissiongroupnameapimethodaccessgrantapimethodaccessgrantpermissiongroupnamePermissionGroupsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulepermissiongroupspermissiongroupnameportalpageaccessgrantPermissionGroupsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulepermissiongroupspermissiongroupnameportalpageaccessgrantportalpageaccessgrantpermissiongroupnamePermissionGroupsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulepermissiongroupspermissiongroupnameaspnetuserPermissionGroupsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulepermissiongroupspermissiongroupnameaspnetuseraspnetuseridPermissionGroupsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulepermissiongroupsPermissionGroupsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulepermissiongroupscountPermissionGroupsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulepermissiongroupsPermissionGroupsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulepermissiongroupsnamePermissionGroupsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulepermissiongroupsnamePermissionGroupsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulepermissiongroupsnamePermissionGroupsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethoddefinitionsgetapimethoddefinitionswithmodulenameapimethoddefinitionsmodulenameApiMethodDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethoddefinitionsgetapimethoddefinitionswithmodelnameapimethoddefinitionsmodelnameApiMethodDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethoddefinitionsexistsapimethoddefinitionswithmodulenameapimethoddefinitionsmodulenameApiMethodDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethoddefinitionsexistsapimethoddefinitionswithmodelnameapimethoddefinitionsmodelnameApiMethodDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethoddefinitionsapimethoddefinitionkeyapimethodaccessgrantApiMethodDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethoddefinitionsapimethoddefinitionkeyapimethodaccessgrantapimethodaccessgrantpermissiongroupnameApiMethodDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethoddefinitionsapimethoddefinitionkeykafkaeventApiMethodDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethoddefinitionsapimethoddefinitionkeykafkaeventkafkaeventtopicnameApiMethodDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethoddefinitionsdeleteapimethoddefinitionswithmodulenameapimethoddefinitionsmodulenameApiMethodDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethoddefinitionsdeleteapimethoddefinitionswithmodelnameapimethoddefinitionsmodelnameApiMethodDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethoddefinitionsApiMethodDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethoddefinitionscountApiMethodDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleapimethoddefinitionsApiMethodDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethoddefinitionskeyApiMethodDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleapimethoddefinitionskeyApiMethodDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethoddefinitionskeyApiMethodDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpagedefinitionsgetportalpagedefinitionswithmodulenameportalpagedefinitionsmodulenamePortalPageDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpagedefinitionsgetportalpagedefinitionswithmodelnameportalpagedefinitionsmodelnamePortalPageDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpagedefinitionsexistsportalpagedefinitionswithmodulenameportalpagedefinitionsmodulenamePortalPageDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpagedefinitionsexistsportalpagedefinitionswithmodelnameportalpagedefinitionsmodelnamePortalPageDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpagedefinitionsportalpagedefinitionkeyportalpageaccessgrantPortalPageDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpagedefinitionsportalpagedefinitionkeyportalpageaccessgrantportalpageaccessgrantpermissiongroupnamePortalPageDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpagedefinitionsdeleteportalpagedefinitionswithmodulenameportalpagedefinitionsmodulenamePortalPageDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpagedefinitionsdeleteportalpagedefinitionswithmodelnameportalpagedefinitionsmodelnamePortalPageDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpagedefinitionsPortalPageDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpagedefinitionscountPortalPageDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleportalpagedefinitionsPortalPageDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpagedefinitionskeyPortalPageDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleportalpagedefinitionskeyPortalPageDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpagedefinitionskeyPortalPageDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethodaccessgrantsgetapimethodaccessgrantnamesapimethodaccessgrantspermissiongroupnameApiMethodAccessGrantsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethodaccessgrantsclearapimethodaccessgrantsApiMethodAccessGrantsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethodaccessgrantsApiMethodAccessGrantsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethodaccessgrantscountApiMethodAccessGrantsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleapimethodaccessgrantsApiMethodAccessGrantsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethodaccessgrantspermissiongroupnameapimethoddefinitionkeyApiMethodAccessGrantsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleapimethodaccessgrantspermissiongroupnameapimethoddefinitionkeyApiMethodAccessGrantsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethodaccessgrantspermissiongroupnameapimethoddefinitionkeyApiMethodAccessGrantsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpageaccessgrantsgetportalpageaccessgrantsportalpageaccessgrantspermissiongroupnamePortalPageAccessGrantsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpageaccessgrantsgetportalpageaccessgrantportalpageaccessgrantspermissiongroupnameportalpageaccessgrantsportalpagedefinitionkeyportalpageaccessgrantspageactionPortalPageAccessGrantsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpageaccessgrantsclearportalpageaccessgrantsPortalPageAccessGrantsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpageaccessgrantsPortalPageAccessGrantsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpageaccessgrantscountPortalPageAccessGrantsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleportalpageaccessgrantsPortalPageAccessGrantsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpageaccessgrantspermissiongroupnameportalpagedefinitionkeypageactionPortalPageAccessGrantsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleportalpageaccessgrantspermissiongroupnameportalpagedefinitionkeypageactionPortalPageAccessGrantsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpageaccessgrantspermissiongroupnameportalpagedefinitionkeypageactionPortalPageAccessGrantsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalmenusdeleteportalmenuitemswithmodulenameportalmenuskeyPortalMenusController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalmenusdeleteportalmenuitemswithmodelnameportalmenuskeyportalmenusnamePortalMenusController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalmenusPortalMenusController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalmenuscountPortalMenusController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleportalmenusPortalMenusController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalmenuskeyPortalMenusController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleportalmenuskeyPortalMenusController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalmenuskeyPortalMenusController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulecolumntypesColumnTypesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulecolumntypescountColumnTypesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulecolumntypesColumnTypesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulecolumntypesidintColumnTypesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulecolumntypesidintColumnTypesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulecolumntypesidintColumnTypesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduletablecomboboxsettingsTableComboboxSettingsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduletablecomboboxsettingscountTableComboboxSettingsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduletablecomboboxsettingsTableComboboxSettingsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduletablecomboboxsettingstablenameTableComboboxSettingsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduletablecomboboxsettingstablenameTableComboboxSettingsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduletablecomboboxsettingstablenameTableComboboxSettingsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulekafkaeventsgetkafkaeventsKafkaEventsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulekafkaeventsgetactivekafkaeventsKafkaEventsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulekafkaeventsgettopicworkflowskafkaeventstopicnameapimethoddefinitionshttpmethodKafkaEventsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulekafkaeventskafkaeventtopicnametopicworkflowKafkaEventsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulekafkaeventskafkaeventtopicnametopicworkflowtopicworkflowidKafkaEventsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulekafkaeventscleankafkaeventswithmodulenameapimethoddefinitionsmodulenameKafkaEventsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulekafkaeventscleankafkaeventswithmodelnameapimethoddefinitionsmodelnameKafkaEventsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulekafkaeventsKafkaEventsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulekafkaeventscountKafkaEventsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulekafkaeventsKafkaEventsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulekafkaeventstopicnameKafkaEventsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulekafkaeventstopicnameKafkaEventsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulekafkaeventstopicnameKafkaEventsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduletopicworkflowsgetworkflowstopicworkflowskafkaeventstopicnameTopicWorkflowsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "Getapiidentitymoduletopicworkflowsgetworkflows2topicworkflowskafkaeventstopicnameTopicWorkflowsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduletopicworkflowsgettopicworkflowskafkaeventstopicnameapimethoddefinitionshttpmethodTopicWorkflowsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduletopicworkflowsTopicWorkflowsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduletopicworkflowscountTopicWorkflowsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduletopicworkflowsTopicWorkflowsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduletopicworkflowsidintTopicWorkflowsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduletopicworkflowsidintTopicWorkflowsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduletopicworkflowsidintTopicWorkflowsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetrolesaspnetroleidaspnetuserroleAspNetRolesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetrolesaspnetroleidaspnetuserroleaspnetuserroleuseridAspNetRolesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetrolesaspnetroleidaspnetroleclaimAspNetRolesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetrolesaspnetroleidaspnetroleclaimaspnetroleclaimidAspNetRolesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetrolesAspNetRolesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetrolescountAspNetRolesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetrolesAspNetRolesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetrolesidAspNetRolesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetrolesidAspNetRolesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetrolesidAspNetRolesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusersgetuseraspnetusersemailAspNetUsersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusersaspnetuseridrefreshtokenAspNetUsersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusersaspnetuseridrefreshtokenrefreshtokenidAspNetUsersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusersaspnetuseridaspnetuserroleAspNetUsersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusersaspnetuseridaspnetuserroleaspnetuserroleuseridAspNetUsersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusersaspnetuseridaspnetuserclaimAspNetUsersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusersaspnetuseridaspnetuserclaimaspnetuserclaimidAspNetUsersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusersaspnetuseridaspnetuserloginAspNetUsersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusersaspnetuseridaspnetuserloginaspnetuserloginloginproviderAspNetUsersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusersaspnetuseridaspnetusertokenAspNetUsersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusersaspnetuseridaspnetusertokenaspnetusertokenuseridAspNetUsersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusersAspNetUsersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetuserscountAspNetUsersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetusersAspNetUsersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusersidAspNetUsersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetusersidAspNetUsersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetusersidAspNetUsersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulerefreshtokensgetrefreshtokenrefreshtokenstokenRefreshTokensController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiidentitymodulerefreshtokensupdaterefreshtokensrefreshtokenstokenRefreshTokensController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulerefreshtokensRefreshTokensController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulerefreshtokenscountRefreshTokensController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulerefreshtokensRefreshTokensController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymodulerefreshtokensidintRefreshTokensController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulerefreshtokensidintRefreshTokensController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulerefreshtokensidintRefreshTokensController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetroleclaimsAspNetRoleClaimsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetroleclaimscountAspNetRoleClaimsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetroleclaimsAspNetRoleClaimsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetroleclaimsidintAspNetRoleClaimsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetroleclaimsidintAspNetRoleClaimsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetroleclaimsidintAspNetRoleClaimsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetuserclaimsAspNetUserClaimsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetuserclaimscountAspNetUserClaimsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetuserclaimsAspNetUserClaimsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetuserclaimsidintAspNetUserClaimsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetuserclaimsidintAspNetUserClaimsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetuserclaimsidintAspNetUserClaimsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetuserloginsAspNetUserLoginsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetuserloginscountAspNetUserLoginsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetuserloginsAspNetUserLoginsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetuserloginsloginproviderproviderkeyAspNetUserLoginsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetuserloginsloginproviderproviderkeyAspNetUserLoginsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetuserloginsloginproviderproviderkeyAspNetUserLoginsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetuserrolesAspNetUserRolesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetuserrolescountAspNetUserRolesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetuserrolesAspNetUserRolesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetuserrolesuseridroleidAspNetUserRolesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetuserrolesuseridroleidAspNetUserRolesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetuserrolesuseridroleidAspNetUserRolesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusertokensAspNetUserTokensController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusertokenscountAspNetUserTokensController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetusertokensAspNetUserTokensController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleaspnetusertokensuseridAspNetUserTokensController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetusertokensuseridAspNetUserTokensController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetusertokensuseridAspNetUserTokensController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleauditlogsAuditLogsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleauditlogscountAuditLogsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleauditlogsidguidAuditLogsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulewarehousesgetactivewarehousesisactiveboolWarehousesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulewarehouseswarehouseidstockWarehousesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulewarehouseswarehouseidstockstockidWarehousesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulewarehouseswarehouseidstockmovementWarehousesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulewarehouseswarehouseidstockmovementstockmovementidWarehousesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulewarehouseswarehouseidreorderpointWarehousesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulewarehouseswarehouseidreorderpointreorderpointidWarehousesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulewarehouseswarehouseidinventoryadjustmentWarehousesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulewarehouseswarehouseidinventoryadjustmentinventoryadjustmentidWarehousesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulewarehousesWarehousesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulewarehousescountWarehousesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiinventorymodulewarehousesWarehousesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulewarehousesidintWarehousesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiinventorymodulewarehousesidintWarehousesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiinventorymodulewarehousesidintWarehousesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulestocksgetbyproductstocksproductidintStocksController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulestocksgetbywarehousestockswarehouseidintStocksController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulestocksgetlowstockStocksController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiinventorymodulestocksadjuststockstocksproductidintstockswarehouseidintStocksController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulestocksStocksController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulestockscountStocksController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiinventorymodulestocksStocksController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulestocksidintStocksController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiinventorymodulestocksidintStocksController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiinventorymodulestocksidintStocksController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulestockmovementsgetbyproductstockmovementsproductidintStockMovementsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulestockmovementsStockMovementsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulestockmovementscountStockMovementsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiinventorymodulestockmovementsStockMovementsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulestockmovementsidintStockMovementsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiinventorymodulestockmovementsidintStockMovementsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiinventorymodulestockmovementsidintStockMovementsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulereorderpointsgetbyproductreorderpointsproductidintReorderPointsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulereorderpointsReorderPointsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulereorderpointscountReorderPointsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiinventorymodulereorderpointsReorderPointsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulereorderpointsidintReorderPointsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiinventorymodulereorderpointsidintReorderPointsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiinventorymodulereorderpointsidintReorderPointsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymoduleinventoryadjustmentsgetbyproductinventoryadjustmentsproductidintInventoryAdjustmentsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymoduleinventoryadjustmentsInventoryAdjustmentsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymoduleinventoryadjustmentscountInventoryAdjustmentsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiinventorymoduleinventoryadjustmentsInventoryAdjustmentsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymoduleinventoryadjustmentsidintInventoryAdjustmentsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiinventorymoduleinventoryadjustmentsidintInventoryAdjustmentsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiinventorymoduleinventoryadjustmentsidintInventoryAdjustmentsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulesupplierssearchbynamesuppliersnameSuppliersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulesuppliersSuppliersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulesupplierscountSuppliersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiinventorymodulesuppliersSuppliersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymodulesuppliersidintSuppliersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiinventorymodulesuppliersidintSuppliersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiinventorymodulesuppliersidintSuppliersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymoduleauditlogsAuditLogsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymoduleauditlogscountAuditLogsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiinventorymoduleauditlogsidguidAuditLogsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordersgetbycustomerorderscustomeridintOrdersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordersgetbystatusordersorderstatusOrdersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordersgetpendingordersorderstatusOrdersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordersgetdailyrevenueOrdersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordersorderidorderitemOrdersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordersorderidorderitemorderitemidOrdersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordersorderidordernoteOrdersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordersorderidordernoteordernoteidOrdersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiordermoduleordersupdatestatusordersidintOrdersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordersOrdersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleorderscountOrdersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiordermoduleordersOrdersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordersidintOrdersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiordermoduleordersidintOrdersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiordermoduleordersidintOrdersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleorderitemsgetbyorderorderitemsorderidintOrderItemsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleorderitemsOrderItemsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleorderitemscountOrderItemsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiordermoduleorderitemsOrderItemsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleorderitemsidintOrderItemsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiordermoduleorderitemsidintOrderItemsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiordermoduleorderitemsidintOrderItemsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleshippingaddressesgetbycustomershippingaddressescustomeridintShippingAddressesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleshippingaddressesshippingaddressidorderShippingAddressesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleshippingaddressesshippingaddressidorderorderidShippingAddressesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleshippingaddressesShippingAddressesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleshippingaddressescountShippingAddressesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiordermoduleshippingaddressesShippingAddressesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleshippingaddressesidintShippingAddressesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiordermoduleshippingaddressesidintShippingAddressesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiordermoduleshippingaddressesidintShippingAddressesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermodulebillingaddressesgetbycustomerbillingaddressescustomeridintBillingAddressesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermodulebillingaddressesbillingaddressidorderBillingAddressesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermodulebillingaddressesbillingaddressidorderorderidBillingAddressesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermodulebillingaddressesBillingAddressesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermodulebillingaddressescountBillingAddressesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiordermodulebillingaddressesBillingAddressesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermodulebillingaddressesidintBillingAddressesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiordermodulebillingaddressesidintBillingAddressesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiordermodulebillingaddressesidintBillingAddressesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermodulepaymentmethodsgetbycustomerpaymentmethodscustomeridintPaymentMethodsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermodulepaymentmethodspaymentmethodidorderPaymentMethodsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermodulepaymentmethodspaymentmethodidorderorderidPaymentMethodsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermodulepaymentmethodsPaymentMethodsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermodulepaymentmethodscountPaymentMethodsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiordermodulepaymentmethodsPaymentMethodsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermodulepaymentmethodsidintPaymentMethodsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiordermodulepaymentmethodsidintPaymentMethodsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiordermodulepaymentmethodsidintPaymentMethodsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordernotesgetbyorderordernotesorderidintOrderNotesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordernotesOrderNotesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordernotescountOrderNotesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiordermoduleordernotesOrderNotesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleordernotesidintOrderNotesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiordermoduleordernotesidintOrderNotesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiordermoduleordernotesidintOrderNotesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleauditlogsAuditLogsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleauditlogscountAuditLogsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiordermoduleauditlogsidguidAuditLogsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductsgetactiveproductsstatusProductsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductssearchbynameproductsnameProductsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductsgetbycategoryproductscategoryidintProductsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductsgetbypricerangeproductspricedecimalProductsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductsgetnewestProductsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductsproductidproductimageProductsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductsproductidproductimageproductimageidProductsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductsproductidproductreviewProductsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductsproductidproductreviewproductreviewidProductsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductsproductidproductspecificationProductsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductsproductidproductspecificationproductspecificationidProductsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiproductcatalogmoduleproductsupdatepriceproductsidintProductsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductsProductsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductscountProductsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiproductcatalogmoduleproductsProductsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductsidintProductsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiproductcatalogmoduleproductsidintProductsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiproductcatalogmoduleproductsidintProductsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductcategoriesgetactiveproductcategoriesisactiveboolProductCategoriesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductcategoriessearchbynameproductcategoriesnameProductCategoriesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductcategoriesgetbyparentproductcategoriesparentcategoryidintProductCategoriesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductcategoriesproductcategoryidproductProductCategoriesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductcategoriesproductcategoryidproductproductidProductCategoriesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductcategoriesProductCategoriesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductcategoriescountProductCategoriesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiproductcatalogmoduleproductcategoriesProductCategoriesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductcategoriesidintProductCategoriesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiproductcatalogmoduleproductcategoriesidintProductCategoriesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiproductcatalogmoduleproductcategoriesidintProductCategoriesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductimagesgetbyproductproductimagesproductidintProductImagesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiproductcatalogmoduleproductimagessetprimaryproductimagesidintProductImagesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductimagesProductImagesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductimagescountProductImagesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiproductcatalogmoduleproductimagesProductImagesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductimagesidintProductImagesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiproductcatalogmoduleproductimagesidintProductImagesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiproductcatalogmoduleproductimagesidintProductImagesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductbrandsgetactiveproductbrandsisactiveboolProductBrandsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductbrandssearchbynameproductbrandsnameProductBrandsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductbrandsproductbrandidproductProductBrandsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductbrandsproductbrandidproductproductidProductBrandsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductbrandsProductBrandsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductbrandscountProductBrandsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiproductcatalogmoduleproductbrandsProductBrandsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductbrandsidintProductBrandsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiproductcatalogmoduleproductbrandsidintProductBrandsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiproductcatalogmoduleproductbrandsidintProductBrandsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductreviewsgetbyproductproductreviewsproductidintProductReviewsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductreviewsgetrecentproductreviewsproductidintProductReviewsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductreviewsProductReviewsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductreviewscountProductReviewsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiproductcatalogmoduleproductreviewsProductReviewsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductreviewsidintProductReviewsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiproductcatalogmoduleproductreviewsidintProductReviewsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiproductcatalogmoduleproductreviewsidintProductReviewsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductspecificationsgetbyproductproductspecificationsproductidintProductSpecificationsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductspecificationsProductSpecificationsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductspecificationscountProductSpecificationsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiproductcatalogmoduleproductspecificationsProductSpecificationsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleproductspecificationsidintProductSpecificationsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiproductcatalogmoduleproductspecificationsidintProductSpecificationsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiproductcatalogmoduleproductspecificationsidintProductSpecificationsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleauditlogsAuditLogsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleauditlogscountAuditLogsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiproductcatalogmoduleauditlogsidguidAuditLogsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshipmentsgetbyordershipmentsorderidintShipmentsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshipmentsgetbystatusshipmentsshippingstatusShipmentsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshipmentsshipmentidshipmenttrackingeventShipmentsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshipmentsshipmentidshipmenttrackingeventshipmenttrackingeventidShipmentsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshipmentsshipmentiddeliveryexceptionShipmentsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshipmentsshipmentiddeliveryexceptiondeliveryexceptionidShipmentsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapishippingmoduleshipmentsupdatestatusshipmentsidintShipmentsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshipmentsShipmentsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshipmentscountShipmentsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapishippingmoduleshipmentsShipmentsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshipmentsidintShipmentsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapishippingmoduleshipmentsidintShipmentsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapishippingmoduleshipmentsidintShipmentsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshippingcarriersgetactiveshippingcarriersisactiveboolShippingCarriersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshippingcarriersshippingcarrieridshipmentShippingCarriersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshippingcarriersshippingcarrieridshipmentshipmentidShippingCarriersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshippingcarriersShippingCarriersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshippingcarrierscountShippingCarriersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapishippingmoduleshippingcarriersShippingCarriersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshippingcarriersidintShippingCarriersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapishippingmoduleshippingcarriersidintShippingCarriersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapishippingmoduleshippingcarriersidintShippingCarriersController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduledeliveryaddressesgetbycustomerdeliveryaddressescustomeridintDeliveryAddressesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduledeliveryaddressesdeliveryaddressidshipmentDeliveryAddressesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduledeliveryaddressesdeliveryaddressidshipmentshipmentidDeliveryAddressesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduledeliveryaddressesDeliveryAddressesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduledeliveryaddressescountDeliveryAddressesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapishippingmoduledeliveryaddressesDeliveryAddressesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduledeliveryaddressesidintDeliveryAddressesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapishippingmoduledeliveryaddressesidintDeliveryAddressesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapishippingmoduledeliveryaddressesidintDeliveryAddressesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshipmenttrackingeventsgetbyshipmentshipmenttrackingeventsshipmentidintShipmentTrackingEventsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshipmenttrackingeventsShipmentTrackingEventsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshipmenttrackingeventscountShipmentTrackingEventsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapishippingmoduleshipmenttrackingeventsShipmentTrackingEventsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshipmenttrackingeventsidintShipmentTrackingEventsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapishippingmoduleshipmenttrackingeventsidintShipmentTrackingEventsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapishippingmoduleshipmenttrackingeventsidintShipmentTrackingEventsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshippingratesgetbycarrierandzipshippingratescarrieridintshippingratesdestinationzipcodeShippingRatesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshippingratesShippingRatesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshippingratescountShippingRatesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapishippingmoduleshippingratesShippingRatesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleshippingratesidintShippingRatesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapishippingmoduleshippingratesidintShippingRatesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapishippingmoduleshippingratesidintShippingRatesController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduledeliveryexceptionsgetbyshipmentdeliveryexceptionsshipmentidintDeliveryExceptionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduledeliveryexceptionsDeliveryExceptionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduledeliveryexceptionscountDeliveryExceptionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapishippingmoduledeliveryexceptionsDeliveryExceptionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduledeliveryexceptionsidintDeliveryExceptionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapishippingmoduledeliveryexceptionsidintDeliveryExceptionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapishippingmoduledeliveryexceptionsidintDeliveryExceptionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleauditlogsAuditLogsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleauditlogscountAuditLogsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapishippingmoduleauditlogsidguidAuditLogsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleportalpagedefinitionsgetportalpagedefinitionspermissiongroupnamePortalPageDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleportalpagedefinitionsupdateportalpagepermissionPortalPageDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduleapimethoddefinitionsgetapipermissionspermissiongroupnameApiMethodDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleapimethoddefinitionsupdateapipermissionApiMethodDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduletopicworkflowsidumlApiMethodDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "GetapiidentitymoduletopicworkflowsiddiagramApiMethodDefinitionsController",
+    "PermissionGroupName": "Viewer",
+    "ModifiedBy": "System",
+    "IsActive": true
+  }
+]
+}

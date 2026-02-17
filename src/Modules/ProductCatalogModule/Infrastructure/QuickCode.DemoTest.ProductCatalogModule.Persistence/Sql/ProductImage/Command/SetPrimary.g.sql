@@ -1,0 +1,4 @@
+﻿UPDATE [PRODUCT_IMAGES] 
+	SET [IS_PRIMARY] = true 
+WHERE [IsDeleted] = 0 
+	AND [ID] = @PRM_PRODUCT_IMAGES_ID

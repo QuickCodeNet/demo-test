@@ -1,0 +1,5151 @@
+﻿{
+  "PortalPageDefinitions": [
+    {
+      "Key": "IdentityModuleApiMethodAccessGrantsList",
+      "ModuleName": "IdentityModule",
+      "ModelName": "ApiMethodAccessGrants",
+      "PageAction": "List",
+      "PagePath": "/IdentityModuleApiMethodAccessGrants/List"
+    },
+    {
+      "Key": "IdentityModuleApiMethodAccessGrantsDetail",
+      "ModuleName": "IdentityModule",
+      "ModelName": "ApiMethodAccessGrants",
+      "PageAction": "Detail",
+      "PagePath": "/IdentityModuleApiMethodAccessGrants/Detail"
+    },
+    {
+      "Key": "IdentityModuleApiMethodAccessGrantsInsert",
+      "ModuleName": "IdentityModule",
+      "ModelName": "ApiMethodAccessGrants",
+      "PageAction": "Insert",
+      "PagePath": "/IdentityModuleApiMethodAccessGrants/Insert"
+    },
+    {
+      "Key": "IdentityModuleApiMethodAccessGrantsUpdate",
+      "ModuleName": "IdentityModule",
+      "ModelName": "ApiMethodAccessGrants",
+      "PageAction": "Update",
+      "PagePath": "/IdentityModuleApiMethodAccessGrants/Update"
+    },
+    {
+      "Key": "IdentityModuleApiMethodAccessGrantsDelete",
+      "ModuleName": "IdentityModule",
+      "ModelName": "ApiMethodAccessGrants",
+      "PageAction": "Delete",
+      "PagePath": "/IdentityModuleApiMethodAccessGrants/Delete"
+    },
+    {
+      "Key": "IdentityModuleApiMethodDefinitionsList",
+      "ModuleName": "IdentityModule",
+      "ModelName": "ApiMethodDefinitions",
+      "PageAction": "List",
+      "PagePath": "/IdentityModuleApiMethodDefinitions/List"
+    },
+    {
+      "Key": "IdentityModuleApiMethodDefinitionsDetail",
+      "ModuleName": "IdentityModule",
+      "ModelName": "ApiMethodDefinitions",
+      "PageAction": "Detail",
+      "PagePath": "/IdentityModuleApiMethodDefinitions/Detail"
+    },
+    {
+      "Key": "IdentityModuleApiMethodDefinitionsInsert",
+      "ModuleName": "IdentityModule",
+      "ModelName": "ApiMethodDefinitions",
+      "PageAction": "Insert",
+      "PagePath": "/IdentityModuleApiMethodDefinitions/Insert"
+    },
+    {
+      "Key": "IdentityModuleApiMethodDefinitionsUpdate",
+      "ModuleName": "IdentityModule",
+      "ModelName": "ApiMethodDefinitions",
+      "PageAction": "Update",
+      "PagePath": "/IdentityModuleApiMethodDefinitions/Update"
+    },
+    {
+      "Key": "IdentityModuleApiMethodDefinitionsDelete",
+      "ModuleName": "IdentityModule",
+      "ModelName": "ApiMethodDefinitions",
+      "PageAction": "Delete",
+      "PagePath": "/IdentityModuleApiMethodDefinitions/Delete"
+    },
+    {
+      "Key": "IdentityModuleAspNetRolesList",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetRoles",
+      "PageAction": "List",
+      "PagePath": "/IdentityModuleAspNetRoles/List"
+    },
+    {
+      "Key": "IdentityModuleAspNetRolesDetail",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetRoles",
+      "PageAction": "Detail",
+      "PagePath": "/IdentityModuleAspNetRoles/Detail"
+    },
+    {
+      "Key": "IdentityModuleAspNetRolesInsert",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetRoles",
+      "PageAction": "Insert",
+      "PagePath": "/IdentityModuleAspNetRoles/Insert"
+    },
+    {
+      "Key": "IdentityModuleAspNetRolesUpdate",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetRoles",
+      "PageAction": "Update",
+      "PagePath": "/IdentityModuleAspNetRoles/Update"
+    },
+    {
+      "Key": "IdentityModuleAspNetRolesDelete",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetRoles",
+      "PageAction": "Delete",
+      "PagePath": "/IdentityModuleAspNetRoles/Delete"
+    },
+    {
+      "Key": "IdentityModuleAspNetRoleClaimsList",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetRoleClaims",
+      "PageAction": "List",
+      "PagePath": "/IdentityModuleAspNetRoleClaims/List"
+    },
+    {
+      "Key": "IdentityModuleAspNetRoleClaimsDetail",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetRoleClaims",
+      "PageAction": "Detail",
+      "PagePath": "/IdentityModuleAspNetRoleClaims/Detail"
+    },
+    {
+      "Key": "IdentityModuleAspNetRoleClaimsInsert",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetRoleClaims",
+      "PageAction": "Insert",
+      "PagePath": "/IdentityModuleAspNetRoleClaims/Insert"
+    },
+    {
+      "Key": "IdentityModuleAspNetRoleClaimsUpdate",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetRoleClaims",
+      "PageAction": "Update",
+      "PagePath": "/IdentityModuleAspNetRoleClaims/Update"
+    },
+    {
+      "Key": "IdentityModuleAspNetRoleClaimsDelete",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetRoleClaims",
+      "PageAction": "Delete",
+      "PagePath": "/IdentityModuleAspNetRoleClaims/Delete"
+    },
+    {
+      "Key": "IdentityModuleAspNetUsersList",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetUsers",
+      "PageAction": "List",
+      "PagePath": "/IdentityModuleAspNetUsers/List"
+    },
+    {
+      "Key": "IdentityModuleAspNetUsersDetail",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetUsers",
+      "PageAction": "Detail",
+      "PagePath": "/IdentityModuleAspNetUsers/Detail"
+    },
+    {
+      "Key": "IdentityModuleAspNetUsersInsert",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetUsers",
+      "PageAction": "Insert",
+      "PagePath": "/IdentityModuleAspNetUsers/Insert"
+    },
+    {
+      "Key": "IdentityModuleAspNetUsersUpdate",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetUsers",
+      "PageAction": "Update",
+      "PagePath": "/IdentityModuleAspNetUsers/Update"
+    },
+    {
+      "Key": "IdentityModuleAspNetUsersDelete",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetUsers",
+      "PageAction": "Delete",
+      "PagePath": "/IdentityModuleAspNetUsers/Delete"
+    },
+    {
+      "Key": "IdentityModuleAspNetUserClaimsList",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetUserClaims",
+      "PageAction": "List",
+      "PagePath": "/IdentityModuleAspNetUserClaims/List"
+    },
+    {
+      "Key": "IdentityModuleAspNetUserClaimsDetail",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetUserClaims",
+      "PageAction": "Detail",
+      "PagePath": "/IdentityModuleAspNetUserClaims/Detail"
+    },
+    {
+      "Key": "IdentityModuleAspNetUserClaimsInsert",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetUserClaims",
+      "PageAction": "Insert",
+      "PagePath": "/IdentityModuleAspNetUserClaims/Insert"
+    },
+    {
+      "Key": "IdentityModuleAspNetUserClaimsUpdate",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetUserClaims",
+      "PageAction": "Update",
+      "PagePath": "/IdentityModuleAspNetUserClaims/Update"
+    },
+    {
+      "Key": "IdentityModuleAspNetUserClaimsDelete",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetUserClaims",
+      "PageAction": "Delete",
+      "PagePath": "/IdentityModuleAspNetUserClaims/Delete"
+    },
+    {
+      "Key": "IdentityModuleAspNetUserLoginsList",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetUserLogins",
+      "PageAction": "List",
+      "PagePath": "/IdentityModuleAspNetUserLogins/List"
+    },
+    {
+      "Key": "IdentityModuleAspNetUserLoginsDetail",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetUserLogins",
+      "PageAction": "Detail",
+      "PagePath": "/IdentityModuleAspNetUserLogins/Detail"
+    },
+    {
+      "Key": "IdentityModuleAspNetUserLoginsInsert",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetUserLogins",
+      "PageAction": "Insert",
+      "PagePath": "/IdentityModuleAspNetUserLogins/Insert"
+    },
+    {
+      "Key": "IdentityModuleAspNetUserLoginsUpdate",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetUserLogins",
+      "PageAction": "Update",
+      "PagePath": "/IdentityModuleAspNetUserLogins/Update"
+    },
+    {
+      "Key": "IdentityModuleAspNetUserLoginsDelete",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetUserLogins",
+      "PageAction": "Delete",
+      "PagePath": "/IdentityModuleAspNetUserLogins/Delete"
+    },
+    {
+      "Key": "IdentityModuleAspNetUserRolesList",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetUserRoles",
+      "PageAction": "List",
+      "PagePath": "/IdentityModuleAspNetUserRoles/List"
+    },
+    {
+      "Key": "IdentityModuleAspNetUserRolesDetail",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetUserRoles",
+      "PageAction": "Detail",
+      "PagePath": "/IdentityModuleAspNetUserRoles/Detail"
+    },
+    {
+      "Key": "IdentityModuleAspNetUserRolesInsert",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetUserRoles",
+      "PageAction": "Insert",
+      "PagePath": "/IdentityModuleAspNetUserRoles/Insert"
+    },
+    {
+      "Key": "IdentityModuleAspNetUserRolesUpdate",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetUserRoles",
+      "PageAction": "Update",
+      "PagePath": "/IdentityModuleAspNetUserRoles/Update"
+    },
+    {
+      "Key": "IdentityModuleAspNetUserRolesDelete",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetUserRoles",
+      "PageAction": "Delete",
+      "PagePath": "/IdentityModuleAspNetUserRoles/Delete"
+    },
+    {
+      "Key": "IdentityModuleAspNetUserTokensList",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetUserTokens",
+      "PageAction": "List",
+      "PagePath": "/IdentityModuleAspNetUserTokens/List"
+    },
+    {
+      "Key": "IdentityModuleAspNetUserTokensDetail",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetUserTokens",
+      "PageAction": "Detail",
+      "PagePath": "/IdentityModuleAspNetUserTokens/Detail"
+    },
+    {
+      "Key": "IdentityModuleAspNetUserTokensInsert",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetUserTokens",
+      "PageAction": "Insert",
+      "PagePath": "/IdentityModuleAspNetUserTokens/Insert"
+    },
+    {
+      "Key": "IdentityModuleAspNetUserTokensUpdate",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetUserTokens",
+      "PageAction": "Update",
+      "PagePath": "/IdentityModuleAspNetUserTokens/Update"
+    },
+    {
+      "Key": "IdentityModuleAspNetUserTokensDelete",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AspNetUserTokens",
+      "PageAction": "Delete",
+      "PagePath": "/IdentityModuleAspNetUserTokens/Delete"
+    },
+    {
+      "Key": "IdentityModuleAuditLogsList",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AuditLogs",
+      "PageAction": "List",
+      "PagePath": "/IdentityModuleAuditLogs/List"
+    },
+    {
+      "Key": "IdentityModuleAuditLogsDetail",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AuditLogs",
+      "PageAction": "Detail",
+      "PagePath": "/IdentityModuleAuditLogs/Detail"
+    },
+    {
+      "Key": "IdentityModuleAuditLogsInsert",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AuditLogs",
+      "PageAction": "Insert",
+      "PagePath": "/IdentityModuleAuditLogs/Insert"
+    },
+    {
+      "Key": "IdentityModuleAuditLogsUpdate",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AuditLogs",
+      "PageAction": "Update",
+      "PagePath": "/IdentityModuleAuditLogs/Update"
+    },
+    {
+      "Key": "IdentityModuleAuditLogsDelete",
+      "ModuleName": "IdentityModule",
+      "ModelName": "AuditLogs",
+      "PageAction": "Delete",
+      "PagePath": "/IdentityModuleAuditLogs/Delete"
+    },
+    {
+      "Key": "IdentityModuleColumnTypesList",
+      "ModuleName": "IdentityModule",
+      "ModelName": "ColumnTypes",
+      "PageAction": "List",
+      "PagePath": "/IdentityModuleColumnTypes/List"
+    },
+    {
+      "Key": "IdentityModuleColumnTypesDetail",
+      "ModuleName": "IdentityModule",
+      "ModelName": "ColumnTypes",
+      "PageAction": "Detail",
+      "PagePath": "/IdentityModuleColumnTypes/Detail"
+    },
+    {
+      "Key": "IdentityModuleColumnTypesInsert",
+      "ModuleName": "IdentityModule",
+      "ModelName": "ColumnTypes",
+      "PageAction": "Insert",
+      "PagePath": "/IdentityModuleColumnTypes/Insert"
+    },
+    {
+      "Key": "IdentityModuleColumnTypesUpdate",
+      "ModuleName": "IdentityModule",
+      "ModelName": "ColumnTypes",
+      "PageAction": "Update",
+      "PagePath": "/IdentityModuleColumnTypes/Update"
+    },
+    {
+      "Key": "IdentityModuleColumnTypesDelete",
+      "ModuleName": "IdentityModule",
+      "ModelName": "ColumnTypes",
+      "PageAction": "Delete",
+      "PagePath": "/IdentityModuleColumnTypes/Delete"
+    },
+    {
+      "Key": "IdentityModuleKafkaEventsList",
+      "ModuleName": "IdentityModule",
+      "ModelName": "KafkaEvents",
+      "PageAction": "List",
+      "PagePath": "/IdentityModuleKafkaEvents/List"
+    },
+    {
+      "Key": "IdentityModuleKafkaEventsDetail",
+      "ModuleName": "IdentityModule",
+      "ModelName": "KafkaEvents",
+      "PageAction": "Detail",
+      "PagePath": "/IdentityModuleKafkaEvents/Detail"
+    },
+    {
+      "Key": "IdentityModuleKafkaEventsInsert",
+      "ModuleName": "IdentityModule",
+      "ModelName": "KafkaEvents",
+      "PageAction": "Insert",
+      "PagePath": "/IdentityModuleKafkaEvents/Insert"
+    },
+    {
+      "Key": "IdentityModuleKafkaEventsUpdate",
+      "ModuleName": "IdentityModule",
+      "ModelName": "KafkaEvents",
+      "PageAction": "Update",
+      "PagePath": "/IdentityModuleKafkaEvents/Update"
+    },
+    {
+      "Key": "IdentityModuleKafkaEventsDelete",
+      "ModuleName": "IdentityModule",
+      "ModelName": "KafkaEvents",
+      "PageAction": "Delete",
+      "PagePath": "/IdentityModuleKafkaEvents/Delete"
+    },
+    {
+      "Key": "IdentityModuleModelsList",
+      "ModuleName": "IdentityModule",
+      "ModelName": "Models",
+      "PageAction": "List",
+      "PagePath": "/IdentityModuleModels/List"
+    },
+    {
+      "Key": "IdentityModuleModelsDetail",
+      "ModuleName": "IdentityModule",
+      "ModelName": "Models",
+      "PageAction": "Detail",
+      "PagePath": "/IdentityModuleModels/Detail"
+    },
+    {
+      "Key": "IdentityModuleModelsInsert",
+      "ModuleName": "IdentityModule",
+      "ModelName": "Models",
+      "PageAction": "Insert",
+      "PagePath": "/IdentityModuleModels/Insert"
+    },
+    {
+      "Key": "IdentityModuleModelsUpdate",
+      "ModuleName": "IdentityModule",
+      "ModelName": "Models",
+      "PageAction": "Update",
+      "PagePath": "/IdentityModuleModels/Update"
+    },
+    {
+      "Key": "IdentityModuleModelsDelete",
+      "ModuleName": "IdentityModule",
+      "ModelName": "Models",
+      "PageAction": "Delete",
+      "PagePath": "/IdentityModuleModels/Delete"
+    },
+    {
+      "Key": "IdentityModuleModulesList",
+      "ModuleName": "IdentityModule",
+      "ModelName": "Modules",
+      "PageAction": "List",
+      "PagePath": "/IdentityModuleModules/List"
+    },
+    {
+      "Key": "IdentityModuleModulesDetail",
+      "ModuleName": "IdentityModule",
+      "ModelName": "Modules",
+      "PageAction": "Detail",
+      "PagePath": "/IdentityModuleModules/Detail"
+    },
+    {
+      "Key": "IdentityModuleModulesInsert",
+      "ModuleName": "IdentityModule",
+      "ModelName": "Modules",
+      "PageAction": "Insert",
+      "PagePath": "/IdentityModuleModules/Insert"
+    },
+    {
+      "Key": "IdentityModuleModulesUpdate",
+      "ModuleName": "IdentityModule",
+      "ModelName": "Modules",
+      "PageAction": "Update",
+      "PagePath": "/IdentityModuleModules/Update"
+    },
+    {
+      "Key": "IdentityModuleModulesDelete",
+      "ModuleName": "IdentityModule",
+      "ModelName": "Modules",
+      "PageAction": "Delete",
+      "PagePath": "/IdentityModuleModules/Delete"
+    },
+    {
+      "Key": "IdentityModulePermissionGroupsList",
+      "ModuleName": "IdentityModule",
+      "ModelName": "PermissionGroups",
+      "PageAction": "List",
+      "PagePath": "/IdentityModulePermissionGroups/List"
+    },
+    {
+      "Key": "IdentityModulePermissionGroupsDetail",
+      "ModuleName": "IdentityModule",
+      "ModelName": "PermissionGroups",
+      "PageAction": "Detail",
+      "PagePath": "/IdentityModulePermissionGroups/Detail"
+    },
+    {
+      "Key": "IdentityModulePermissionGroupsInsert",
+      "ModuleName": "IdentityModule",
+      "ModelName": "PermissionGroups",
+      "PageAction": "Insert",
+      "PagePath": "/IdentityModulePermissionGroups/Insert"
+    },
+    {
+      "Key": "IdentityModulePermissionGroupsUpdate",
+      "ModuleName": "IdentityModule",
+      "ModelName": "PermissionGroups",
+      "PageAction": "Update",
+      "PagePath": "/IdentityModulePermissionGroups/Update"
+    },
+    {
+      "Key": "IdentityModulePermissionGroupsDelete",
+      "ModuleName": "IdentityModule",
+      "ModelName": "PermissionGroups",
+      "PageAction": "Delete",
+      "PagePath": "/IdentityModulePermissionGroups/Delete"
+    },
+    {
+      "Key": "IdentityModulePortalMenusList",
+      "ModuleName": "IdentityModule",
+      "ModelName": "PortalMenus",
+      "PageAction": "List",
+      "PagePath": "/IdentityModulePortalMenus/List"
+    },
+    {
+      "Key": "IdentityModulePortalMenusDetail",
+      "ModuleName": "IdentityModule",
+      "ModelName": "PortalMenus",
+      "PageAction": "Detail",
+      "PagePath": "/IdentityModulePortalMenus/Detail"
+    },
+    {
+      "Key": "IdentityModulePortalMenusInsert",
+      "ModuleName": "IdentityModule",
+      "ModelName": "PortalMenus",
+      "PageAction": "Insert",
+      "PagePath": "/IdentityModulePortalMenus/Insert"
+    },
+    {
+      "Key": "IdentityModulePortalMenusUpdate",
+      "ModuleName": "IdentityModule",
+      "ModelName": "PortalMenus",
+      "PageAction": "Update",
+      "PagePath": "/IdentityModulePortalMenus/Update"
+    },
+    {
+      "Key": "IdentityModulePortalMenusDelete",
+      "ModuleName": "IdentityModule",
+      "ModelName": "PortalMenus",
+      "PageAction": "Delete",
+      "PagePath": "/IdentityModulePortalMenus/Delete"
+    },
+    {
+      "Key": "IdentityModulePortalPageAccessGrantsList",
+      "ModuleName": "IdentityModule",
+      "ModelName": "PortalPageAccessGrants",
+      "PageAction": "List",
+      "PagePath": "/IdentityModulePortalPageAccessGrants/List"
+    },
+    {
+      "Key": "IdentityModulePortalPageAccessGrantsDetail",
+      "ModuleName": "IdentityModule",
+      "ModelName": "PortalPageAccessGrants",
+      "PageAction": "Detail",
+      "PagePath": "/IdentityModulePortalPageAccessGrants/Detail"
+    },
+    {
+      "Key": "IdentityModulePortalPageAccessGrantsInsert",
+      "ModuleName": "IdentityModule",
+      "ModelName": "PortalPageAccessGrants",
+      "PageAction": "Insert",
+      "PagePath": "/IdentityModulePortalPageAccessGrants/Insert"
+    },
+    {
+      "Key": "IdentityModulePortalPageAccessGrantsUpdate",
+      "ModuleName": "IdentityModule",
+      "ModelName": "PortalPageAccessGrants",
+      "PageAction": "Update",
+      "PagePath": "/IdentityModulePortalPageAccessGrants/Update"
+    },
+    {
+      "Key": "IdentityModulePortalPageAccessGrantsDelete",
+      "ModuleName": "IdentityModule",
+      "ModelName": "PortalPageAccessGrants",
+      "PageAction": "Delete",
+      "PagePath": "/IdentityModulePortalPageAccessGrants/Delete"
+    },
+    {
+      "Key": "IdentityModulePortalPageDefinitionsList",
+      "ModuleName": "IdentityModule",
+      "ModelName": "PortalPageDefinitions",
+      "PageAction": "List",
+      "PagePath": "/IdentityModulePortalPageDefinitions/List"
+    },
+    {
+      "Key": "IdentityModulePortalPageDefinitionsDetail",
+      "ModuleName": "IdentityModule",
+      "ModelName": "PortalPageDefinitions",
+      "PageAction": "Detail",
+      "PagePath": "/IdentityModulePortalPageDefinitions/Detail"
+    },
+    {
+      "Key": "IdentityModulePortalPageDefinitionsInsert",
+      "ModuleName": "IdentityModule",
+      "ModelName": "PortalPageDefinitions",
+      "PageAction": "Insert",
+      "PagePath": "/IdentityModulePortalPageDefinitions/Insert"
+    },
+    {
+      "Key": "IdentityModulePortalPageDefinitionsUpdate",
+      "ModuleName": "IdentityModule",
+      "ModelName": "PortalPageDefinitions",
+      "PageAction": "Update",
+      "PagePath": "/IdentityModulePortalPageDefinitions/Update"
+    },
+    {
+      "Key": "IdentityModulePortalPageDefinitionsDelete",
+      "ModuleName": "IdentityModule",
+      "ModelName": "PortalPageDefinitions",
+      "PageAction": "Delete",
+      "PagePath": "/IdentityModulePortalPageDefinitions/Delete"
+    },
+    {
+      "Key": "IdentityModuleRefreshTokensList",
+      "ModuleName": "IdentityModule",
+      "ModelName": "RefreshTokens",
+      "PageAction": "List",
+      "PagePath": "/IdentityModuleRefreshTokens/List"
+    },
+    {
+      "Key": "IdentityModuleRefreshTokensDetail",
+      "ModuleName": "IdentityModule",
+      "ModelName": "RefreshTokens",
+      "PageAction": "Detail",
+      "PagePath": "/IdentityModuleRefreshTokens/Detail"
+    },
+    {
+      "Key": "IdentityModuleRefreshTokensInsert",
+      "ModuleName": "IdentityModule",
+      "ModelName": "RefreshTokens",
+      "PageAction": "Insert",
+      "PagePath": "/IdentityModuleRefreshTokens/Insert"
+    },
+    {
+      "Key": "IdentityModuleRefreshTokensUpdate",
+      "ModuleName": "IdentityModule",
+      "ModelName": "RefreshTokens",
+      "PageAction": "Update",
+      "PagePath": "/IdentityModuleRefreshTokens/Update"
+    },
+    {
+      "Key": "IdentityModuleRefreshTokensDelete",
+      "ModuleName": "IdentityModule",
+      "ModelName": "RefreshTokens",
+      "PageAction": "Delete",
+      "PagePath": "/IdentityModuleRefreshTokens/Delete"
+    },
+    {
+      "Key": "IdentityModuleTableComboboxSettingsList",
+      "ModuleName": "IdentityModule",
+      "ModelName": "TableComboboxSettings",
+      "PageAction": "List",
+      "PagePath": "/IdentityModuleTableComboboxSettings/List"
+    },
+    {
+      "Key": "IdentityModuleTableComboboxSettingsDetail",
+      "ModuleName": "IdentityModule",
+      "ModelName": "TableComboboxSettings",
+      "PageAction": "Detail",
+      "PagePath": "/IdentityModuleTableComboboxSettings/Detail"
+    },
+    {
+      "Key": "IdentityModuleTableComboboxSettingsInsert",
+      "ModuleName": "IdentityModule",
+      "ModelName": "TableComboboxSettings",
+      "PageAction": "Insert",
+      "PagePath": "/IdentityModuleTableComboboxSettings/Insert"
+    },
+    {
+      "Key": "IdentityModuleTableComboboxSettingsUpdate",
+      "ModuleName": "IdentityModule",
+      "ModelName": "TableComboboxSettings",
+      "PageAction": "Update",
+      "PagePath": "/IdentityModuleTableComboboxSettings/Update"
+    },
+    {
+      "Key": "IdentityModuleTableComboboxSettingsDelete",
+      "ModuleName": "IdentityModule",
+      "ModelName": "TableComboboxSettings",
+      "PageAction": "Delete",
+      "PagePath": "/IdentityModuleTableComboboxSettings/Delete"
+    },
+    {
+      "Key": "IdentityModuleTopicWorkflowsList",
+      "ModuleName": "IdentityModule",
+      "ModelName": "TopicWorkflows",
+      "PageAction": "List",
+      "PagePath": "/IdentityModuleTopicWorkflows/List"
+    },
+    {
+      "Key": "IdentityModuleTopicWorkflowsDetail",
+      "ModuleName": "IdentityModule",
+      "ModelName": "TopicWorkflows",
+      "PageAction": "Detail",
+      "PagePath": "/IdentityModuleTopicWorkflows/Detail"
+    },
+    {
+      "Key": "IdentityModuleTopicWorkflowsInsert",
+      "ModuleName": "IdentityModule",
+      "ModelName": "TopicWorkflows",
+      "PageAction": "Insert",
+      "PagePath": "/IdentityModuleTopicWorkflows/Insert"
+    },
+    {
+      "Key": "IdentityModuleTopicWorkflowsUpdate",
+      "ModuleName": "IdentityModule",
+      "ModelName": "TopicWorkflows",
+      "PageAction": "Update",
+      "PagePath": "/IdentityModuleTopicWorkflows/Update"
+    },
+    {
+      "Key": "IdentityModuleTopicWorkflowsDelete",
+      "ModuleName": "IdentityModule",
+      "ModelName": "TopicWorkflows",
+      "PageAction": "Delete",
+      "PagePath": "/IdentityModuleTopicWorkflows/Delete"
+    },
+    {
+      "Key": "InventoryModuleAuditLogsList",
+      "ModuleName": "InventoryModule",
+      "ModelName": "AuditLogs",
+      "PageAction": "List",
+      "PagePath": "/InventoryModuleAuditLogs/List"
+    },
+    {
+      "Key": "InventoryModuleAuditLogsDetail",
+      "ModuleName": "InventoryModule",
+      "ModelName": "AuditLogs",
+      "PageAction": "Detail",
+      "PagePath": "/InventoryModuleAuditLogs/Detail"
+    },
+    {
+      "Key": "InventoryModuleAuditLogsInsert",
+      "ModuleName": "InventoryModule",
+      "ModelName": "AuditLogs",
+      "PageAction": "Insert",
+      "PagePath": "/InventoryModuleAuditLogs/Insert"
+    },
+    {
+      "Key": "InventoryModuleAuditLogsUpdate",
+      "ModuleName": "InventoryModule",
+      "ModelName": "AuditLogs",
+      "PageAction": "Update",
+      "PagePath": "/InventoryModuleAuditLogs/Update"
+    },
+    {
+      "Key": "InventoryModuleAuditLogsDelete",
+      "ModuleName": "InventoryModule",
+      "ModelName": "AuditLogs",
+      "PageAction": "Delete",
+      "PagePath": "/InventoryModuleAuditLogs/Delete"
+    },
+    {
+      "Key": "InventoryModuleInventoryAdjustmentsList",
+      "ModuleName": "InventoryModule",
+      "ModelName": "InventoryAdjustments",
+      "PageAction": "List",
+      "PagePath": "/InventoryModuleInventoryAdjustments/List"
+    },
+    {
+      "Key": "InventoryModuleInventoryAdjustmentsDetail",
+      "ModuleName": "InventoryModule",
+      "ModelName": "InventoryAdjustments",
+      "PageAction": "Detail",
+      "PagePath": "/InventoryModuleInventoryAdjustments/Detail"
+    },
+    {
+      "Key": "InventoryModuleInventoryAdjustmentsInsert",
+      "ModuleName": "InventoryModule",
+      "ModelName": "InventoryAdjustments",
+      "PageAction": "Insert",
+      "PagePath": "/InventoryModuleInventoryAdjustments/Insert"
+    },
+    {
+      "Key": "InventoryModuleInventoryAdjustmentsUpdate",
+      "ModuleName": "InventoryModule",
+      "ModelName": "InventoryAdjustments",
+      "PageAction": "Update",
+      "PagePath": "/InventoryModuleInventoryAdjustments/Update"
+    },
+    {
+      "Key": "InventoryModuleInventoryAdjustmentsDelete",
+      "ModuleName": "InventoryModule",
+      "ModelName": "InventoryAdjustments",
+      "PageAction": "Delete",
+      "PagePath": "/InventoryModuleInventoryAdjustments/Delete"
+    },
+    {
+      "Key": "InventoryModuleReorderPointsList",
+      "ModuleName": "InventoryModule",
+      "ModelName": "ReorderPoints",
+      "PageAction": "List",
+      "PagePath": "/InventoryModuleReorderPoints/List"
+    },
+    {
+      "Key": "InventoryModuleReorderPointsDetail",
+      "ModuleName": "InventoryModule",
+      "ModelName": "ReorderPoints",
+      "PageAction": "Detail",
+      "PagePath": "/InventoryModuleReorderPoints/Detail"
+    },
+    {
+      "Key": "InventoryModuleReorderPointsInsert",
+      "ModuleName": "InventoryModule",
+      "ModelName": "ReorderPoints",
+      "PageAction": "Insert",
+      "PagePath": "/InventoryModuleReorderPoints/Insert"
+    },
+    {
+      "Key": "InventoryModuleReorderPointsUpdate",
+      "ModuleName": "InventoryModule",
+      "ModelName": "ReorderPoints",
+      "PageAction": "Update",
+      "PagePath": "/InventoryModuleReorderPoints/Update"
+    },
+    {
+      "Key": "InventoryModuleReorderPointsDelete",
+      "ModuleName": "InventoryModule",
+      "ModelName": "ReorderPoints",
+      "PageAction": "Delete",
+      "PagePath": "/InventoryModuleReorderPoints/Delete"
+    },
+    {
+      "Key": "InventoryModuleStocksList",
+      "ModuleName": "InventoryModule",
+      "ModelName": "Stocks",
+      "PageAction": "List",
+      "PagePath": "/InventoryModuleStocks/List"
+    },
+    {
+      "Key": "InventoryModuleStocksDetail",
+      "ModuleName": "InventoryModule",
+      "ModelName": "Stocks",
+      "PageAction": "Detail",
+      "PagePath": "/InventoryModuleStocks/Detail"
+    },
+    {
+      "Key": "InventoryModuleStocksInsert",
+      "ModuleName": "InventoryModule",
+      "ModelName": "Stocks",
+      "PageAction": "Insert",
+      "PagePath": "/InventoryModuleStocks/Insert"
+    },
+    {
+      "Key": "InventoryModuleStocksUpdate",
+      "ModuleName": "InventoryModule",
+      "ModelName": "Stocks",
+      "PageAction": "Update",
+      "PagePath": "/InventoryModuleStocks/Update"
+    },
+    {
+      "Key": "InventoryModuleStocksDelete",
+      "ModuleName": "InventoryModule",
+      "ModelName": "Stocks",
+      "PageAction": "Delete",
+      "PagePath": "/InventoryModuleStocks/Delete"
+    },
+    {
+      "Key": "InventoryModuleStockMovementsList",
+      "ModuleName": "InventoryModule",
+      "ModelName": "StockMovements",
+      "PageAction": "List",
+      "PagePath": "/InventoryModuleStockMovements/List"
+    },
+    {
+      "Key": "InventoryModuleStockMovementsDetail",
+      "ModuleName": "InventoryModule",
+      "ModelName": "StockMovements",
+      "PageAction": "Detail",
+      "PagePath": "/InventoryModuleStockMovements/Detail"
+    },
+    {
+      "Key": "InventoryModuleStockMovementsInsert",
+      "ModuleName": "InventoryModule",
+      "ModelName": "StockMovements",
+      "PageAction": "Insert",
+      "PagePath": "/InventoryModuleStockMovements/Insert"
+    },
+    {
+      "Key": "InventoryModuleStockMovementsUpdate",
+      "ModuleName": "InventoryModule",
+      "ModelName": "StockMovements",
+      "PageAction": "Update",
+      "PagePath": "/InventoryModuleStockMovements/Update"
+    },
+    {
+      "Key": "InventoryModuleStockMovementsDelete",
+      "ModuleName": "InventoryModule",
+      "ModelName": "StockMovements",
+      "PageAction": "Delete",
+      "PagePath": "/InventoryModuleStockMovements/Delete"
+    },
+    {
+      "Key": "InventoryModuleSuppliersList",
+      "ModuleName": "InventoryModule",
+      "ModelName": "Suppliers",
+      "PageAction": "List",
+      "PagePath": "/InventoryModuleSuppliers/List"
+    },
+    {
+      "Key": "InventoryModuleSuppliersDetail",
+      "ModuleName": "InventoryModule",
+      "ModelName": "Suppliers",
+      "PageAction": "Detail",
+      "PagePath": "/InventoryModuleSuppliers/Detail"
+    },
+    {
+      "Key": "InventoryModuleSuppliersInsert",
+      "ModuleName": "InventoryModule",
+      "ModelName": "Suppliers",
+      "PageAction": "Insert",
+      "PagePath": "/InventoryModuleSuppliers/Insert"
+    },
+    {
+      "Key": "InventoryModuleSuppliersUpdate",
+      "ModuleName": "InventoryModule",
+      "ModelName": "Suppliers",
+      "PageAction": "Update",
+      "PagePath": "/InventoryModuleSuppliers/Update"
+    },
+    {
+      "Key": "InventoryModuleSuppliersDelete",
+      "ModuleName": "InventoryModule",
+      "ModelName": "Suppliers",
+      "PageAction": "Delete",
+      "PagePath": "/InventoryModuleSuppliers/Delete"
+    },
+    {
+      "Key": "InventoryModuleWarehousesList",
+      "ModuleName": "InventoryModule",
+      "ModelName": "Warehouses",
+      "PageAction": "List",
+      "PagePath": "/InventoryModuleWarehouses/List"
+    },
+    {
+      "Key": "InventoryModuleWarehousesDetail",
+      "ModuleName": "InventoryModule",
+      "ModelName": "Warehouses",
+      "PageAction": "Detail",
+      "PagePath": "/InventoryModuleWarehouses/Detail"
+    },
+    {
+      "Key": "InventoryModuleWarehousesInsert",
+      "ModuleName": "InventoryModule",
+      "ModelName": "Warehouses",
+      "PageAction": "Insert",
+      "PagePath": "/InventoryModuleWarehouses/Insert"
+    },
+    {
+      "Key": "InventoryModuleWarehousesUpdate",
+      "ModuleName": "InventoryModule",
+      "ModelName": "Warehouses",
+      "PageAction": "Update",
+      "PagePath": "/InventoryModuleWarehouses/Update"
+    },
+    {
+      "Key": "InventoryModuleWarehousesDelete",
+      "ModuleName": "InventoryModule",
+      "ModelName": "Warehouses",
+      "PageAction": "Delete",
+      "PagePath": "/InventoryModuleWarehouses/Delete"
+    },
+    {
+      "Key": "OrderModuleAuditLogsList",
+      "ModuleName": "OrderModule",
+      "ModelName": "AuditLogs",
+      "PageAction": "List",
+      "PagePath": "/OrderModuleAuditLogs/List"
+    },
+    {
+      "Key": "OrderModuleAuditLogsDetail",
+      "ModuleName": "OrderModule",
+      "ModelName": "AuditLogs",
+      "PageAction": "Detail",
+      "PagePath": "/OrderModuleAuditLogs/Detail"
+    },
+    {
+      "Key": "OrderModuleAuditLogsInsert",
+      "ModuleName": "OrderModule",
+      "ModelName": "AuditLogs",
+      "PageAction": "Insert",
+      "PagePath": "/OrderModuleAuditLogs/Insert"
+    },
+    {
+      "Key": "OrderModuleAuditLogsUpdate",
+      "ModuleName": "OrderModule",
+      "ModelName": "AuditLogs",
+      "PageAction": "Update",
+      "PagePath": "/OrderModuleAuditLogs/Update"
+    },
+    {
+      "Key": "OrderModuleAuditLogsDelete",
+      "ModuleName": "OrderModule",
+      "ModelName": "AuditLogs",
+      "PageAction": "Delete",
+      "PagePath": "/OrderModuleAuditLogs/Delete"
+    },
+    {
+      "Key": "OrderModuleBillingAddressesList",
+      "ModuleName": "OrderModule",
+      "ModelName": "BillingAddresses",
+      "PageAction": "List",
+      "PagePath": "/OrderModuleBillingAddresses/List"
+    },
+    {
+      "Key": "OrderModuleBillingAddressesDetail",
+      "ModuleName": "OrderModule",
+      "ModelName": "BillingAddresses",
+      "PageAction": "Detail",
+      "PagePath": "/OrderModuleBillingAddresses/Detail"
+    },
+    {
+      "Key": "OrderModuleBillingAddressesInsert",
+      "ModuleName": "OrderModule",
+      "ModelName": "BillingAddresses",
+      "PageAction": "Insert",
+      "PagePath": "/OrderModuleBillingAddresses/Insert"
+    },
+    {
+      "Key": "OrderModuleBillingAddressesUpdate",
+      "ModuleName": "OrderModule",
+      "ModelName": "BillingAddresses",
+      "PageAction": "Update",
+      "PagePath": "/OrderModuleBillingAddresses/Update"
+    },
+    {
+      "Key": "OrderModuleBillingAddressesDelete",
+      "ModuleName": "OrderModule",
+      "ModelName": "BillingAddresses",
+      "PageAction": "Delete",
+      "PagePath": "/OrderModuleBillingAddresses/Delete"
+    },
+    {
+      "Key": "OrderModuleOrdersList",
+      "ModuleName": "OrderModule",
+      "ModelName": "Orders",
+      "PageAction": "List",
+      "PagePath": "/OrderModuleOrders/List"
+    },
+    {
+      "Key": "OrderModuleOrdersDetail",
+      "ModuleName": "OrderModule",
+      "ModelName": "Orders",
+      "PageAction": "Detail",
+      "PagePath": "/OrderModuleOrders/Detail"
+    },
+    {
+      "Key": "OrderModuleOrdersInsert",
+      "ModuleName": "OrderModule",
+      "ModelName": "Orders",
+      "PageAction": "Insert",
+      "PagePath": "/OrderModuleOrders/Insert"
+    },
+    {
+      "Key": "OrderModuleOrdersUpdate",
+      "ModuleName": "OrderModule",
+      "ModelName": "Orders",
+      "PageAction": "Update",
+      "PagePath": "/OrderModuleOrders/Update"
+    },
+    {
+      "Key": "OrderModuleOrdersDelete",
+      "ModuleName": "OrderModule",
+      "ModelName": "Orders",
+      "PageAction": "Delete",
+      "PagePath": "/OrderModuleOrders/Delete"
+    },
+    {
+      "Key": "OrderModuleOrderItemsList",
+      "ModuleName": "OrderModule",
+      "ModelName": "OrderItems",
+      "PageAction": "List",
+      "PagePath": "/OrderModuleOrderItems/List"
+    },
+    {
+      "Key": "OrderModuleOrderItemsDetail",
+      "ModuleName": "OrderModule",
+      "ModelName": "OrderItems",
+      "PageAction": "Detail",
+      "PagePath": "/OrderModuleOrderItems/Detail"
+    },
+    {
+      "Key": "OrderModuleOrderItemsInsert",
+      "ModuleName": "OrderModule",
+      "ModelName": "OrderItems",
+      "PageAction": "Insert",
+      "PagePath": "/OrderModuleOrderItems/Insert"
+    },
+    {
+      "Key": "OrderModuleOrderItemsUpdate",
+      "ModuleName": "OrderModule",
+      "ModelName": "OrderItems",
+      "PageAction": "Update",
+      "PagePath": "/OrderModuleOrderItems/Update"
+    },
+    {
+      "Key": "OrderModuleOrderItemsDelete",
+      "ModuleName": "OrderModule",
+      "ModelName": "OrderItems",
+      "PageAction": "Delete",
+      "PagePath": "/OrderModuleOrderItems/Delete"
+    },
+    {
+      "Key": "OrderModuleOrderNotesList",
+      "ModuleName": "OrderModule",
+      "ModelName": "OrderNotes",
+      "PageAction": "List",
+      "PagePath": "/OrderModuleOrderNotes/List"
+    },
+    {
+      "Key": "OrderModuleOrderNotesDetail",
+      "ModuleName": "OrderModule",
+      "ModelName": "OrderNotes",
+      "PageAction": "Detail",
+      "PagePath": "/OrderModuleOrderNotes/Detail"
+    },
+    {
+      "Key": "OrderModuleOrderNotesInsert",
+      "ModuleName": "OrderModule",
+      "ModelName": "OrderNotes",
+      "PageAction": "Insert",
+      "PagePath": "/OrderModuleOrderNotes/Insert"
+    },
+    {
+      "Key": "OrderModuleOrderNotesUpdate",
+      "ModuleName": "OrderModule",
+      "ModelName": "OrderNotes",
+      "PageAction": "Update",
+      "PagePath": "/OrderModuleOrderNotes/Update"
+    },
+    {
+      "Key": "OrderModuleOrderNotesDelete",
+      "ModuleName": "OrderModule",
+      "ModelName": "OrderNotes",
+      "PageAction": "Delete",
+      "PagePath": "/OrderModuleOrderNotes/Delete"
+    },
+    {
+      "Key": "OrderModulePaymentMethodsList",
+      "ModuleName": "OrderModule",
+      "ModelName": "PaymentMethods",
+      "PageAction": "List",
+      "PagePath": "/OrderModulePaymentMethods/List"
+    },
+    {
+      "Key": "OrderModulePaymentMethodsDetail",
+      "ModuleName": "OrderModule",
+      "ModelName": "PaymentMethods",
+      "PageAction": "Detail",
+      "PagePath": "/OrderModulePaymentMethods/Detail"
+    },
+    {
+      "Key": "OrderModulePaymentMethodsInsert",
+      "ModuleName": "OrderModule",
+      "ModelName": "PaymentMethods",
+      "PageAction": "Insert",
+      "PagePath": "/OrderModulePaymentMethods/Insert"
+    },
+    {
+      "Key": "OrderModulePaymentMethodsUpdate",
+      "ModuleName": "OrderModule",
+      "ModelName": "PaymentMethods",
+      "PageAction": "Update",
+      "PagePath": "/OrderModulePaymentMethods/Update"
+    },
+    {
+      "Key": "OrderModulePaymentMethodsDelete",
+      "ModuleName": "OrderModule",
+      "ModelName": "PaymentMethods",
+      "PageAction": "Delete",
+      "PagePath": "/OrderModulePaymentMethods/Delete"
+    },
+    {
+      "Key": "OrderModuleShippingAddressesList",
+      "ModuleName": "OrderModule",
+      "ModelName": "ShippingAddresses",
+      "PageAction": "List",
+      "PagePath": "/OrderModuleShippingAddresses/List"
+    },
+    {
+      "Key": "OrderModuleShippingAddressesDetail",
+      "ModuleName": "OrderModule",
+      "ModelName": "ShippingAddresses",
+      "PageAction": "Detail",
+      "PagePath": "/OrderModuleShippingAddresses/Detail"
+    },
+    {
+      "Key": "OrderModuleShippingAddressesInsert",
+      "ModuleName": "OrderModule",
+      "ModelName": "ShippingAddresses",
+      "PageAction": "Insert",
+      "PagePath": "/OrderModuleShippingAddresses/Insert"
+    },
+    {
+      "Key": "OrderModuleShippingAddressesUpdate",
+      "ModuleName": "OrderModule",
+      "ModelName": "ShippingAddresses",
+      "PageAction": "Update",
+      "PagePath": "/OrderModuleShippingAddresses/Update"
+    },
+    {
+      "Key": "OrderModuleShippingAddressesDelete",
+      "ModuleName": "OrderModule",
+      "ModelName": "ShippingAddresses",
+      "PageAction": "Delete",
+      "PagePath": "/OrderModuleShippingAddresses/Delete"
+    },
+    {
+      "Key": "ProductCatalogModuleAuditLogsList",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "AuditLogs",
+      "PageAction": "List",
+      "PagePath": "/ProductCatalogModuleAuditLogs/List"
+    },
+    {
+      "Key": "ProductCatalogModuleAuditLogsDetail",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "AuditLogs",
+      "PageAction": "Detail",
+      "PagePath": "/ProductCatalogModuleAuditLogs/Detail"
+    },
+    {
+      "Key": "ProductCatalogModuleAuditLogsInsert",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "AuditLogs",
+      "PageAction": "Insert",
+      "PagePath": "/ProductCatalogModuleAuditLogs/Insert"
+    },
+    {
+      "Key": "ProductCatalogModuleAuditLogsUpdate",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "AuditLogs",
+      "PageAction": "Update",
+      "PagePath": "/ProductCatalogModuleAuditLogs/Update"
+    },
+    {
+      "Key": "ProductCatalogModuleAuditLogsDelete",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "AuditLogs",
+      "PageAction": "Delete",
+      "PagePath": "/ProductCatalogModuleAuditLogs/Delete"
+    },
+    {
+      "Key": "ProductCatalogModuleProductsList",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "Products",
+      "PageAction": "List",
+      "PagePath": "/ProductCatalogModuleProducts/List"
+    },
+    {
+      "Key": "ProductCatalogModuleProductsDetail",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "Products",
+      "PageAction": "Detail",
+      "PagePath": "/ProductCatalogModuleProducts/Detail"
+    },
+    {
+      "Key": "ProductCatalogModuleProductsInsert",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "Products",
+      "PageAction": "Insert",
+      "PagePath": "/ProductCatalogModuleProducts/Insert"
+    },
+    {
+      "Key": "ProductCatalogModuleProductsUpdate",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "Products",
+      "PageAction": "Update",
+      "PagePath": "/ProductCatalogModuleProducts/Update"
+    },
+    {
+      "Key": "ProductCatalogModuleProductsDelete",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "Products",
+      "PageAction": "Delete",
+      "PagePath": "/ProductCatalogModuleProducts/Delete"
+    },
+    {
+      "Key": "ProductCatalogModuleProductBrandsList",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "ProductBrands",
+      "PageAction": "List",
+      "PagePath": "/ProductCatalogModuleProductBrands/List"
+    },
+    {
+      "Key": "ProductCatalogModuleProductBrandsDetail",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "ProductBrands",
+      "PageAction": "Detail",
+      "PagePath": "/ProductCatalogModuleProductBrands/Detail"
+    },
+    {
+      "Key": "ProductCatalogModuleProductBrandsInsert",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "ProductBrands",
+      "PageAction": "Insert",
+      "PagePath": "/ProductCatalogModuleProductBrands/Insert"
+    },
+    {
+      "Key": "ProductCatalogModuleProductBrandsUpdate",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "ProductBrands",
+      "PageAction": "Update",
+      "PagePath": "/ProductCatalogModuleProductBrands/Update"
+    },
+    {
+      "Key": "ProductCatalogModuleProductBrandsDelete",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "ProductBrands",
+      "PageAction": "Delete",
+      "PagePath": "/ProductCatalogModuleProductBrands/Delete"
+    },
+    {
+      "Key": "ProductCatalogModuleProductCategoriesList",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "ProductCategories",
+      "PageAction": "List",
+      "PagePath": "/ProductCatalogModuleProductCategories/List"
+    },
+    {
+      "Key": "ProductCatalogModuleProductCategoriesDetail",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "ProductCategories",
+      "PageAction": "Detail",
+      "PagePath": "/ProductCatalogModuleProductCategories/Detail"
+    },
+    {
+      "Key": "ProductCatalogModuleProductCategoriesInsert",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "ProductCategories",
+      "PageAction": "Insert",
+      "PagePath": "/ProductCatalogModuleProductCategories/Insert"
+    },
+    {
+      "Key": "ProductCatalogModuleProductCategoriesUpdate",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "ProductCategories",
+      "PageAction": "Update",
+      "PagePath": "/ProductCatalogModuleProductCategories/Update"
+    },
+    {
+      "Key": "ProductCatalogModuleProductCategoriesDelete",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "ProductCategories",
+      "PageAction": "Delete",
+      "PagePath": "/ProductCatalogModuleProductCategories/Delete"
+    },
+    {
+      "Key": "ProductCatalogModuleProductImagesList",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "ProductImages",
+      "PageAction": "List",
+      "PagePath": "/ProductCatalogModuleProductImages/List"
+    },
+    {
+      "Key": "ProductCatalogModuleProductImagesDetail",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "ProductImages",
+      "PageAction": "Detail",
+      "PagePath": "/ProductCatalogModuleProductImages/Detail"
+    },
+    {
+      "Key": "ProductCatalogModuleProductImagesInsert",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "ProductImages",
+      "PageAction": "Insert",
+      "PagePath": "/ProductCatalogModuleProductImages/Insert"
+    },
+    {
+      "Key": "ProductCatalogModuleProductImagesUpdate",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "ProductImages",
+      "PageAction": "Update",
+      "PagePath": "/ProductCatalogModuleProductImages/Update"
+    },
+    {
+      "Key": "ProductCatalogModuleProductImagesDelete",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "ProductImages",
+      "PageAction": "Delete",
+      "PagePath": "/ProductCatalogModuleProductImages/Delete"
+    },
+    {
+      "Key": "ProductCatalogModuleProductReviewsList",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "ProductReviews",
+      "PageAction": "List",
+      "PagePath": "/ProductCatalogModuleProductReviews/List"
+    },
+    {
+      "Key": "ProductCatalogModuleProductReviewsDetail",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "ProductReviews",
+      "PageAction": "Detail",
+      "PagePath": "/ProductCatalogModuleProductReviews/Detail"
+    },
+    {
+      "Key": "ProductCatalogModuleProductReviewsInsert",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "ProductReviews",
+      "PageAction": "Insert",
+      "PagePath": "/ProductCatalogModuleProductReviews/Insert"
+    },
+    {
+      "Key": "ProductCatalogModuleProductReviewsUpdate",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "ProductReviews",
+      "PageAction": "Update",
+      "PagePath": "/ProductCatalogModuleProductReviews/Update"
+    },
+    {
+      "Key": "ProductCatalogModuleProductReviewsDelete",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "ProductReviews",
+      "PageAction": "Delete",
+      "PagePath": "/ProductCatalogModuleProductReviews/Delete"
+    },
+    {
+      "Key": "ProductCatalogModuleProductSpecificationsList",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "ProductSpecifications",
+      "PageAction": "List",
+      "PagePath": "/ProductCatalogModuleProductSpecifications/List"
+    },
+    {
+      "Key": "ProductCatalogModuleProductSpecificationsDetail",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "ProductSpecifications",
+      "PageAction": "Detail",
+      "PagePath": "/ProductCatalogModuleProductSpecifications/Detail"
+    },
+    {
+      "Key": "ProductCatalogModuleProductSpecificationsInsert",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "ProductSpecifications",
+      "PageAction": "Insert",
+      "PagePath": "/ProductCatalogModuleProductSpecifications/Insert"
+    },
+    {
+      "Key": "ProductCatalogModuleProductSpecificationsUpdate",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "ProductSpecifications",
+      "PageAction": "Update",
+      "PagePath": "/ProductCatalogModuleProductSpecifications/Update"
+    },
+    {
+      "Key": "ProductCatalogModuleProductSpecificationsDelete",
+      "ModuleName": "ProductCatalogModule",
+      "ModelName": "ProductSpecifications",
+      "PageAction": "Delete",
+      "PagePath": "/ProductCatalogModuleProductSpecifications/Delete"
+    },
+    {
+      "Key": "ShippingModuleAuditLogsList",
+      "ModuleName": "ShippingModule",
+      "ModelName": "AuditLogs",
+      "PageAction": "List",
+      "PagePath": "/ShippingModuleAuditLogs/List"
+    },
+    {
+      "Key": "ShippingModuleAuditLogsDetail",
+      "ModuleName": "ShippingModule",
+      "ModelName": "AuditLogs",
+      "PageAction": "Detail",
+      "PagePath": "/ShippingModuleAuditLogs/Detail"
+    },
+    {
+      "Key": "ShippingModuleAuditLogsInsert",
+      "ModuleName": "ShippingModule",
+      "ModelName": "AuditLogs",
+      "PageAction": "Insert",
+      "PagePath": "/ShippingModuleAuditLogs/Insert"
+    },
+    {
+      "Key": "ShippingModuleAuditLogsUpdate",
+      "ModuleName": "ShippingModule",
+      "ModelName": "AuditLogs",
+      "PageAction": "Update",
+      "PagePath": "/ShippingModuleAuditLogs/Update"
+    },
+    {
+      "Key": "ShippingModuleAuditLogsDelete",
+      "ModuleName": "ShippingModule",
+      "ModelName": "AuditLogs",
+      "PageAction": "Delete",
+      "PagePath": "/ShippingModuleAuditLogs/Delete"
+    },
+    {
+      "Key": "ShippingModuleDeliveryAddressesList",
+      "ModuleName": "ShippingModule",
+      "ModelName": "DeliveryAddresses",
+      "PageAction": "List",
+      "PagePath": "/ShippingModuleDeliveryAddresses/List"
+    },
+    {
+      "Key": "ShippingModuleDeliveryAddressesDetail",
+      "ModuleName": "ShippingModule",
+      "ModelName": "DeliveryAddresses",
+      "PageAction": "Detail",
+      "PagePath": "/ShippingModuleDeliveryAddresses/Detail"
+    },
+    {
+      "Key": "ShippingModuleDeliveryAddressesInsert",
+      "ModuleName": "ShippingModule",
+      "ModelName": "DeliveryAddresses",
+      "PageAction": "Insert",
+      "PagePath": "/ShippingModuleDeliveryAddresses/Insert"
+    },
+    {
+      "Key": "ShippingModuleDeliveryAddressesUpdate",
+      "ModuleName": "ShippingModule",
+      "ModelName": "DeliveryAddresses",
+      "PageAction": "Update",
+      "PagePath": "/ShippingModuleDeliveryAddresses/Update"
+    },
+    {
+      "Key": "ShippingModuleDeliveryAddressesDelete",
+      "ModuleName": "ShippingModule",
+      "ModelName": "DeliveryAddresses",
+      "PageAction": "Delete",
+      "PagePath": "/ShippingModuleDeliveryAddresses/Delete"
+    },
+    {
+      "Key": "ShippingModuleDeliveryExceptionsList",
+      "ModuleName": "ShippingModule",
+      "ModelName": "DeliveryExceptions",
+      "PageAction": "List",
+      "PagePath": "/ShippingModuleDeliveryExceptions/List"
+    },
+    {
+      "Key": "ShippingModuleDeliveryExceptionsDetail",
+      "ModuleName": "ShippingModule",
+      "ModelName": "DeliveryExceptions",
+      "PageAction": "Detail",
+      "PagePath": "/ShippingModuleDeliveryExceptions/Detail"
+    },
+    {
+      "Key": "ShippingModuleDeliveryExceptionsInsert",
+      "ModuleName": "ShippingModule",
+      "ModelName": "DeliveryExceptions",
+      "PageAction": "Insert",
+      "PagePath": "/ShippingModuleDeliveryExceptions/Insert"
+    },
+    {
+      "Key": "ShippingModuleDeliveryExceptionsUpdate",
+      "ModuleName": "ShippingModule",
+      "ModelName": "DeliveryExceptions",
+      "PageAction": "Update",
+      "PagePath": "/ShippingModuleDeliveryExceptions/Update"
+    },
+    {
+      "Key": "ShippingModuleDeliveryExceptionsDelete",
+      "ModuleName": "ShippingModule",
+      "ModelName": "DeliveryExceptions",
+      "PageAction": "Delete",
+      "PagePath": "/ShippingModuleDeliveryExceptions/Delete"
+    },
+    {
+      "Key": "ShippingModuleShipmentsList",
+      "ModuleName": "ShippingModule",
+      "ModelName": "Shipments",
+      "PageAction": "List",
+      "PagePath": "/ShippingModuleShipments/List"
+    },
+    {
+      "Key": "ShippingModuleShipmentsDetail",
+      "ModuleName": "ShippingModule",
+      "ModelName": "Shipments",
+      "PageAction": "Detail",
+      "PagePath": "/ShippingModuleShipments/Detail"
+    },
+    {
+      "Key": "ShippingModuleShipmentsInsert",
+      "ModuleName": "ShippingModule",
+      "ModelName": "Shipments",
+      "PageAction": "Insert",
+      "PagePath": "/ShippingModuleShipments/Insert"
+    },
+    {
+      "Key": "ShippingModuleShipmentsUpdate",
+      "ModuleName": "ShippingModule",
+      "ModelName": "Shipments",
+      "PageAction": "Update",
+      "PagePath": "/ShippingModuleShipments/Update"
+    },
+    {
+      "Key": "ShippingModuleShipmentsDelete",
+      "ModuleName": "ShippingModule",
+      "ModelName": "Shipments",
+      "PageAction": "Delete",
+      "PagePath": "/ShippingModuleShipments/Delete"
+    },
+    {
+      "Key": "ShippingModuleShipmentTrackingEventsList",
+      "ModuleName": "ShippingModule",
+      "ModelName": "ShipmentTrackingEvents",
+      "PageAction": "List",
+      "PagePath": "/ShippingModuleShipmentTrackingEvents/List"
+    },
+    {
+      "Key": "ShippingModuleShipmentTrackingEventsDetail",
+      "ModuleName": "ShippingModule",
+      "ModelName": "ShipmentTrackingEvents",
+      "PageAction": "Detail",
+      "PagePath": "/ShippingModuleShipmentTrackingEvents/Detail"
+    },
+    {
+      "Key": "ShippingModuleShipmentTrackingEventsInsert",
+      "ModuleName": "ShippingModule",
+      "ModelName": "ShipmentTrackingEvents",
+      "PageAction": "Insert",
+      "PagePath": "/ShippingModuleShipmentTrackingEvents/Insert"
+    },
+    {
+      "Key": "ShippingModuleShipmentTrackingEventsUpdate",
+      "ModuleName": "ShippingModule",
+      "ModelName": "ShipmentTrackingEvents",
+      "PageAction": "Update",
+      "PagePath": "/ShippingModuleShipmentTrackingEvents/Update"
+    },
+    {
+      "Key": "ShippingModuleShipmentTrackingEventsDelete",
+      "ModuleName": "ShippingModule",
+      "ModelName": "ShipmentTrackingEvents",
+      "PageAction": "Delete",
+      "PagePath": "/ShippingModuleShipmentTrackingEvents/Delete"
+    },
+    {
+      "Key": "ShippingModuleShippingCarriersList",
+      "ModuleName": "ShippingModule",
+      "ModelName": "ShippingCarriers",
+      "PageAction": "List",
+      "PagePath": "/ShippingModuleShippingCarriers/List"
+    },
+    {
+      "Key": "ShippingModuleShippingCarriersDetail",
+      "ModuleName": "ShippingModule",
+      "ModelName": "ShippingCarriers",
+      "PageAction": "Detail",
+      "PagePath": "/ShippingModuleShippingCarriers/Detail"
+    },
+    {
+      "Key": "ShippingModuleShippingCarriersInsert",
+      "ModuleName": "ShippingModule",
+      "ModelName": "ShippingCarriers",
+      "PageAction": "Insert",
+      "PagePath": "/ShippingModuleShippingCarriers/Insert"
+    },
+    {
+      "Key": "ShippingModuleShippingCarriersUpdate",
+      "ModuleName": "ShippingModule",
+      "ModelName": "ShippingCarriers",
+      "PageAction": "Update",
+      "PagePath": "/ShippingModuleShippingCarriers/Update"
+    },
+    {
+      "Key": "ShippingModuleShippingCarriersDelete",
+      "ModuleName": "ShippingModule",
+      "ModelName": "ShippingCarriers",
+      "PageAction": "Delete",
+      "PagePath": "/ShippingModuleShippingCarriers/Delete"
+    },
+    {
+      "Key": "ShippingModuleShippingRatesList",
+      "ModuleName": "ShippingModule",
+      "ModelName": "ShippingRates",
+      "PageAction": "List",
+      "PagePath": "/ShippingModuleShippingRates/List"
+    },
+    {
+      "Key": "ShippingModuleShippingRatesDetail",
+      "ModuleName": "ShippingModule",
+      "ModelName": "ShippingRates",
+      "PageAction": "Detail",
+      "PagePath": "/ShippingModuleShippingRates/Detail"
+    },
+    {
+      "Key": "ShippingModuleShippingRatesInsert",
+      "ModuleName": "ShippingModule",
+      "ModelName": "ShippingRates",
+      "PageAction": "Insert",
+      "PagePath": "/ShippingModuleShippingRates/Insert"
+    },
+    {
+      "Key": "ShippingModuleShippingRatesUpdate",
+      "ModuleName": "ShippingModule",
+      "ModelName": "ShippingRates",
+      "PageAction": "Update",
+      "PagePath": "/ShippingModuleShippingRates/Update"
+    },
+    {
+      "Key": "ShippingModuleShippingRatesDelete",
+      "ModuleName": "ShippingModule",
+      "ModelName": "ShippingRates",
+      "PageAction": "Delete",
+      "PagePath": "/ShippingModuleShippingRates/Delete"
+    }
+  ],
+  "PortalPageAccessGrants": [
+    {
+      "PortalPageDefinitionKey": "IdentityModuleApiMethodAccessGrantsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleApiMethodAccessGrantsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleApiMethodAccessGrantsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleApiMethodAccessGrantsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleApiMethodAccessGrantsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleApiMethodAccessGrantsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleApiMethodAccessGrantsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleApiMethodAccessGrantsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleApiMethodAccessGrantsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleApiMethodAccessGrantsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleApiMethodDefinitionsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleApiMethodDefinitionsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleApiMethodDefinitionsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleApiMethodDefinitionsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleApiMethodDefinitionsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleApiMethodDefinitionsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleApiMethodDefinitionsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleApiMethodDefinitionsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleApiMethodDefinitionsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleApiMethodDefinitionsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetRolesList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetRolesList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetRolesDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetRolesDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetRolesInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetRolesInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetRolesUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetRolesUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetRolesDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetRolesDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetRoleClaimsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetRoleClaimsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetRoleClaimsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetRoleClaimsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetRoleClaimsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetRoleClaimsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetRoleClaimsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetRoleClaimsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetRoleClaimsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetRoleClaimsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUsersList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUsersList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUsersDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUsersDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUsersInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUsersInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUsersUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUsersUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUsersDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUsersDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserClaimsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserClaimsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserClaimsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserClaimsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserClaimsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserClaimsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserClaimsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserClaimsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserClaimsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserClaimsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserLoginsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserLoginsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserLoginsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserLoginsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserLoginsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserLoginsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserLoginsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserLoginsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserLoginsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserLoginsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserRolesList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserRolesList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserRolesDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserRolesDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserRolesInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserRolesInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserRolesUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserRolesUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserRolesDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserRolesDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserTokensList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserTokensList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserTokensDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserTokensDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserTokensInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserTokensInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserTokensUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserTokensUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserTokensDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAspNetUserTokensDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAuditLogsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAuditLogsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAuditLogsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAuditLogsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAuditLogsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAuditLogsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAuditLogsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAuditLogsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAuditLogsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleAuditLogsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleColumnTypesList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleColumnTypesList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleColumnTypesDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleColumnTypesDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleColumnTypesInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleColumnTypesInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleColumnTypesUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleColumnTypesUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleColumnTypesDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleColumnTypesDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleKafkaEventsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleKafkaEventsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleKafkaEventsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleKafkaEventsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleKafkaEventsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleKafkaEventsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleKafkaEventsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleKafkaEventsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleKafkaEventsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleKafkaEventsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleModelsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleModelsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleModelsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleModelsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleModelsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleModelsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleModelsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleModelsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleModelsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleModelsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleModulesList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleModulesList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleModulesDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleModulesDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleModulesInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleModulesInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleModulesUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleModulesUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleModulesDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleModulesDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePermissionGroupsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePermissionGroupsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePermissionGroupsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePermissionGroupsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePermissionGroupsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePermissionGroupsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePermissionGroupsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePermissionGroupsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePermissionGroupsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePermissionGroupsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalMenusList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalMenusList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalMenusDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalMenusDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalMenusInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalMenusInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalMenusUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalMenusUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalMenusDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalMenusDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalPageAccessGrantsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalPageAccessGrantsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalPageAccessGrantsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalPageAccessGrantsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalPageAccessGrantsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalPageAccessGrantsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalPageAccessGrantsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalPageAccessGrantsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalPageAccessGrantsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalPageAccessGrantsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalPageDefinitionsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalPageDefinitionsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalPageDefinitionsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalPageDefinitionsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalPageDefinitionsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalPageDefinitionsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalPageDefinitionsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalPageDefinitionsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalPageDefinitionsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModulePortalPageDefinitionsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleRefreshTokensList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleRefreshTokensList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleRefreshTokensDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleRefreshTokensDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleRefreshTokensInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleRefreshTokensInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleRefreshTokensUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleRefreshTokensUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleRefreshTokensDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleRefreshTokensDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleTableComboboxSettingsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleTableComboboxSettingsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleTableComboboxSettingsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleTableComboboxSettingsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleTableComboboxSettingsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleTableComboboxSettingsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleTableComboboxSettingsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleTableComboboxSettingsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleTableComboboxSettingsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleTableComboboxSettingsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleTopicWorkflowsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleTopicWorkflowsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleTopicWorkflowsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleTopicWorkflowsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleTopicWorkflowsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleTopicWorkflowsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleTopicWorkflowsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleTopicWorkflowsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleTopicWorkflowsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "IdentityModuleTopicWorkflowsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleAuditLogsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleAuditLogsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleAuditLogsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleAuditLogsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleAuditLogsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleAuditLogsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleAuditLogsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleAuditLogsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleAuditLogsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleAuditLogsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleInventoryAdjustmentsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleInventoryAdjustmentsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleInventoryAdjustmentsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleInventoryAdjustmentsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleInventoryAdjustmentsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleInventoryAdjustmentsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleInventoryAdjustmentsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleInventoryAdjustmentsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleInventoryAdjustmentsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleInventoryAdjustmentsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleReorderPointsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleReorderPointsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleReorderPointsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleReorderPointsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleReorderPointsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleReorderPointsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleReorderPointsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleReorderPointsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleReorderPointsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleReorderPointsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleStocksList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleStocksList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleStocksDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleStocksDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleStocksInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleStocksInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleStocksUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleStocksUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleStocksDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleStocksDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleStockMovementsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleStockMovementsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleStockMovementsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleStockMovementsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleStockMovementsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleStockMovementsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleStockMovementsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleStockMovementsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleStockMovementsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleStockMovementsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleSuppliersList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleSuppliersList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleSuppliersDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleSuppliersDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleSuppliersInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleSuppliersInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleSuppliersUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleSuppliersUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleSuppliersDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleSuppliersDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleWarehousesList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleWarehousesList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleWarehousesDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleWarehousesDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleWarehousesInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleWarehousesInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleWarehousesUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleWarehousesUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleWarehousesDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "InventoryModuleWarehousesDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleAuditLogsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleAuditLogsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleAuditLogsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleAuditLogsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleAuditLogsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleAuditLogsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleAuditLogsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleAuditLogsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleAuditLogsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleAuditLogsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleBillingAddressesList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleBillingAddressesList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleBillingAddressesDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleBillingAddressesDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleBillingAddressesInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleBillingAddressesInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleBillingAddressesUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleBillingAddressesUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleBillingAddressesDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleBillingAddressesDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrdersList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrdersList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrdersDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrdersDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrdersInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrdersInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrdersUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrdersUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrdersDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrdersDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrderItemsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrderItemsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrderItemsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrderItemsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrderItemsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrderItemsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrderItemsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrderItemsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrderItemsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrderItemsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrderNotesList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrderNotesList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrderNotesDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrderNotesDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrderNotesInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrderNotesInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrderNotesUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrderNotesUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrderNotesDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleOrderNotesDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModulePaymentMethodsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModulePaymentMethodsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModulePaymentMethodsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModulePaymentMethodsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModulePaymentMethodsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModulePaymentMethodsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModulePaymentMethodsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModulePaymentMethodsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModulePaymentMethodsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModulePaymentMethodsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleShippingAddressesList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleShippingAddressesList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleShippingAddressesDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleShippingAddressesDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleShippingAddressesInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleShippingAddressesInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleShippingAddressesUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleShippingAddressesUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleShippingAddressesDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "OrderModuleShippingAddressesDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleAuditLogsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleAuditLogsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleAuditLogsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleAuditLogsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleAuditLogsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleAuditLogsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleAuditLogsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleAuditLogsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleAuditLogsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleAuditLogsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductBrandsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductBrandsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductBrandsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductBrandsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductBrandsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductBrandsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductBrandsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductBrandsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductBrandsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductBrandsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductCategoriesList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductCategoriesList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductCategoriesDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductCategoriesDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductCategoriesInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductCategoriesInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductCategoriesUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductCategoriesUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductCategoriesDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductCategoriesDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductImagesList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductImagesList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductImagesDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductImagesDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductImagesInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductImagesInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductImagesUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductImagesUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductImagesDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductImagesDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductReviewsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductReviewsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductReviewsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductReviewsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductReviewsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductReviewsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductReviewsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductReviewsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductReviewsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductReviewsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductSpecificationsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductSpecificationsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductSpecificationsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductSpecificationsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductSpecificationsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductSpecificationsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductSpecificationsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductSpecificationsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductSpecificationsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ProductCatalogModuleProductSpecificationsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleAuditLogsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleAuditLogsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleAuditLogsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleAuditLogsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleAuditLogsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleAuditLogsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleAuditLogsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleAuditLogsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleAuditLogsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleAuditLogsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleDeliveryAddressesList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleDeliveryAddressesList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleDeliveryAddressesDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleDeliveryAddressesDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleDeliveryAddressesInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleDeliveryAddressesInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleDeliveryAddressesUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleDeliveryAddressesUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleDeliveryAddressesDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleDeliveryAddressesDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleDeliveryExceptionsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleDeliveryExceptionsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleDeliveryExceptionsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleDeliveryExceptionsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleDeliveryExceptionsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleDeliveryExceptionsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleDeliveryExceptionsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleDeliveryExceptionsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleDeliveryExceptionsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleDeliveryExceptionsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShipmentsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShipmentsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShipmentsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShipmentsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShipmentsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShipmentsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShipmentsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShipmentsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShipmentsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShipmentsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShipmentTrackingEventsList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShipmentTrackingEventsList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShipmentTrackingEventsDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShipmentTrackingEventsDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShipmentTrackingEventsInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShipmentTrackingEventsInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShipmentTrackingEventsUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShipmentTrackingEventsUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShipmentTrackingEventsDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShipmentTrackingEventsDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShippingCarriersList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShippingCarriersList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShippingCarriersDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShippingCarriersDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShippingCarriersInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShippingCarriersInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShippingCarriersUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShippingCarriersUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShippingCarriersDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShippingCarriersDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShippingRatesList",
+      "PermissionGroupName": "Admin",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShippingRatesList",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "List",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShippingRatesDetail",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShippingRatesDetail",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Detail",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShippingRatesInsert",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShippingRatesInsert",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Insert",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShippingRatesUpdate",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShippingRatesUpdate",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Update",
+      "ModifiedBy": "System",
+      "IsActive": false
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShippingRatesDelete",
+      "PermissionGroupName": "Admin",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": true
+    },
+    {
+      "PortalPageDefinitionKey": "ShippingModuleShippingRatesDelete",
+      "PermissionGroupName": "Viewer",
+      "PageAction": "Delete",
+      "ModifiedBy": "System",
+      "IsActive": false
+    }
+  ]
+}
